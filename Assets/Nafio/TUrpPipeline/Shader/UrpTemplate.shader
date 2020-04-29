@@ -48,34 +48,34 @@ Shader "Universal Render Pipeline/Custom/Physically Based Example"
 		_ReceiveShadows("Receive Shadows", Float) = 1.0
 
 			// Editmode props
-			[HideInInspector] _QueueOffset("Queue offset", Float) = 0.0
+		[HideInInspector] _QueueOffset("Queue offset", Float) = 0.0
 	}
 
-		SubShader
+	SubShader
+	{
+		// With SRP we introduce a new "RenderPipeline" tag in Subshader. This allows to create shaders
+		// that can match multiple render pipelines. If a RenderPipeline tag is not set it will match
+		// any render pipeline. In case you want your subshader to only run in LWRP set the tag to
+		// "UniversalRenderPipeline"
+		Tags{"RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline" "IgnoreProjector" = "True"}
+		LOD 300
+
+		// ------------------------------------------------------------------
+		// Forward pass. Shades GI, emission, fog and all lights in a single pass.
+		// Compared to Builtin pipeline forward renderer, LWRP forward renderer will
+		// render a scene with multiple lights with less drawcalls and less overdraw.
+		Pass
 		{
-			// With SRP we introduce a new "RenderPipeline" tag in Subshader. This allows to create shaders
-			// that can match multiple render pipelines. If a RenderPipeline tag is not set it will match
-			// any render pipeline. In case you want your subshader to only run in LWRP set the tag to
-			// "UniversalRenderPipeline"
-			Tags{"RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline" "IgnoreProjector" = "True"}
-			LOD 300
+			// "Lightmode" tag must be "UniversalForward" or not be defined in order for
+			// to render objects.
+			Name "StandardLit"
+			Tags{"LightMode" = "UniversalForward"}
 
-			// ------------------------------------------------------------------
-			// Forward pass. Shades GI, emission, fog and all lights in a single pass.
-			// Compared to Builtin pipeline forward renderer, LWRP forward renderer will
-			// render a scene with multiple lights with less drawcalls and less overdraw.
-			Pass
-			{
-				// "Lightmode" tag must be "UniversalForward" or not be defined in order for
-				// to render objects.
-				Name "StandardLit"
-				Tags{"LightMode" = "UniversalForward"}
+			Blend[_SrcBlend][_DstBlend]
+			ZWrite[_ZWrite]
+			Cull[_Cull]
 
-				Blend[_SrcBlend][_DstBlend]
-				ZWrite[_ZWrite]
-				Cull[_Cull]
-
-				HLSLPROGRAM
+			HLSLPROGRAM
 			// Required to compile gles 2.0 with standard SRP library
 			// All shaders must be compiled with HLSLcc and currently only gles is not using HLSLcc by default
 			#pragma prefer_hlslcc gles
@@ -313,20 +313,20 @@ Shader "Universal Render Pipeline/Custom/Physically Based Example"
 			ENDHLSL
 		}
 
-			// Used for rendering shadowmaps
-			UsePass "Universal Render Pipeline/Lit/ShadowCaster"
+		// Used for rendering shadowmaps
+		UsePass "Universal Render Pipeline/Lit/ShadowCaster"
 
-				// Used for depth prepass
-				// If shadows cascade are enabled we need to perform a depth prepass. 
-				// We also need to use a depth prepass in some cases camera require depth texture
-				// (e.g, MSAA is enabled and we can't resolve with Texture2DMS
-				UsePass "Universal Render Pipeline/Lit/DepthOnly"
+		// Used for depth prepass
+		// If shadows cascade are enabled we need to perform a depth prepass. 
+		// We also need to use a depth prepass in some cases camera require depth texture
+		// (e.g, MSAA is enabled and we can't resolve with Texture2DMS
+		UsePass "Universal Render Pipeline/Lit/DepthOnly"
 
-				// Used for Baking GI. This pass is stripped from build.
-				UsePass "Universal Render Pipeline/Lit/Meta"
-		}
+		// Used for Baking GI. This pass is stripped from build.
+		UsePass "Universal Render Pipeline/Lit/Meta"
+	}
 
-			// Uses a custom shader GUI to display settings. Re-use the same from Lit shader as they have the
-			// same properties.
-				CustomEditor "UnityEditor.Rendering.Universal.ShaderGUI.LitShader"
+	// Uses a custom shader GUI to display settings. Re-use the same from Lit shader as they have the
+	// same properties.
+	CustomEditor "UnityEditor.Rendering.Universal.ShaderGUI.LitShader"
 }
