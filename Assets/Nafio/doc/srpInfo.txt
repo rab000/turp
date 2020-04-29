@@ -1,0 +1,10 @@
+
+
+srp入门demo
+https://zhuanlan.zhihu.com/p/102989404
+
+Assets/Nafio/TSrpPipeline/下的两个demo
+需要分别把对应的Pipeline.asset拖到
+Project setting/Graphics
+Project setting/Quatity
+中才能正常显示结果
