@@ -1,0 +1,48 @@
+
+xxxx Unity SRP学习笔记(一)
+https://zhuanlan.zhihu.com/p/99142987
+
+Unity-LWRP(URP)-学习笔记（印象）
+https://www.evernote.com/shard/s201/client/snv?noteGuid=e64c4704-a628-47af-ae92-d68f2862f259&noteKey=410569d74636f8eb&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs201%2Fsh%2Fe64c4704-a628-47af-ae92-d68f2862f259%2F410569d74636f8eb&title=Unity-LWRP%2528URP%2529-%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0
+
+URP学习之一到八
+https://www.cnblogs.com/shenyibo/
+
+这里提到了一个通用nrp模板
+https://forum.unity.com/threads/urp-docs-on-writing-shaders.828558/
+https://gist.github.com/phi-lira/225cd7c5e8545be602dca4eb5ed111ba
+
+unity github上的demo
+https://github.com/Unity-Technologies/UniversalRenderingExamples
+
+
+https://www.bilibili.com/video/av79755223/
+https://github.com/Verasl/BoatAttack
+https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.3/manual/index.html
+https://blogs.unity3d.com/2019/09/20/how-the-lightweight-render-pipeline-is-evolving/
+
+
+Unity SRP（大体说了为什么要srp）
+https://www.jianshu.com/p/5654a5f82624
+[官方直播] 详解Unity轻量级渲染管线LWRP
+https://www.bilibili.com/video/av38056528
+[官方直播] 轻量级渲染管线（LWRP）最新功能介绍及案例解析
+https://www.bilibili.com/video/av55456063/
+
+实时渲染3相关
+https://zhuanlan.zhihu.com/p/34207965
+
+一起来写Unity渲染管线吧！一 搭建最基本的管线
+https://zhuanlan.zhihu.com/p/35805693
+
+Unity SRP系列教程
+https://zhuanlan.zhihu.com/c_1152899463470379008
+
+URP/LWRP学习入门
+https://zhuanlan.zhihu.com/p/103457229?utm_source=wechat_session
+
+xxxx  gamma空间和线性空间
+https://www.cnblogs.com/zblade/p/10769202.html
+
+ssgi
+https://github.com/demonixis/SSGI-URP
