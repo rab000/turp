@@ -1,4 +1,17 @@
 
+
+[Universal RP]Unity通用渲染管线的Lit.shader（Lit可以当模板使用）
+https://zhuanlan.zhihu.com/p/87602137
+
+UnityShader——阴影源码解析（一）
+https://blog.csdn.net/NotMz/article/details/82053659
+
+从这篇看就是阴影纹理的uv，计算方法跟空间转换有关，具体细节后面再看下
+这篇能解释这个问题，投影矩阵和光源方向camera矩阵相乘代表的意思需要再看下
+Unity实时阴影实现——Shadow Mapping
+https://zhuanlan.zhihu.com/p/45653702
+
+
 xxxx Unity SRP学习笔记(一)
 https://zhuanlan.zhihu.com/p/99142987
 
@@ -44,5 +57,5 @@ https://zhuanlan.zhihu.com/p/103457229?utm_source=wechat_session
 xxxx  gamma空间和线性空间
 https://www.cnblogs.com/zblade/p/10769202.html
 
-ssgi
+ssgi unity gi
 https://github.com/demonixis/SSGI-URP

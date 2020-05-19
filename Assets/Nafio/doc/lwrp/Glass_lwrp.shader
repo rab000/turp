@@ -3,8 +3,8 @@ Shader "FX/Glass/Stained BumpDistort(LWRP)"{
 	{
 		_BumpAmt("Distortion",range(0,0.2)) = 0.1
 		_TintAmt("Tint amount",Range(0,1)) = 0.1
-   		_MainTex("Tint Color(RGB)",2D) = "white" ()
-		_BumpMap("Normalmap",2D)= "bump" ()
+		_MainTex("Tint Color(RGB)",2D) = "white" {}
+		_BumpMap("Normalmap",2D) = "bump" {}
 	}
 
 	Categery

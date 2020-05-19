@@ -1,0 +1,133 @@
+参考这篇
+[Universal RP]Unity通用渲染管线的Lit.shader
+https://zhuanlan.zhihu.com/p/87602137
+
+标准urp lit shader分5个pass
+5个Pass分别为前向渲染Pass、阴影投射Pass、深度Pass、光线追踪Pass、2D渲染Pass
+
+引用的包基本都在
+Packages/Universal RP/ShaderLibrary
+Packages/Universal RP/Shaders
+中
+
+
+重点关注下前向pass
+前向pass 主要包含了两个shader
+
+#include "LitInput.hlsl"
+#include "LitForwardPass.hlsl"
+
+先看LitInput.hlsl
+[----------------------------------------------------------------------------
+CBUFFER_START(UnityPerMaterial)
+float4 _BaseMap_ST;
+half4 _BaseColor;
+half4 _SpecColor;
+half4 _EmissionColor;
+half _Cutoff;
+half _Smoothness;
+half _Metallic;
+half _BumpScale;
+half _OcclusionStrength;
+CBUFFER_END
+
+TEXTURE2D(_OcclusionMap);       SAMPLER(sampler_OcclusionMap);
+TEXTURE2D(_MetallicGlossMap);   SAMPLER(sampler_MetallicGlossMap);
+TEXTURE2D(_SpecGlossMap);       SAMPLER(sampler_SpecGlossMap);
+----------------------------------------------------------------------------
+CBUFFER与Srp batcher有关
+就是shader相同，变量有不同值也能合批，基本原理就是
+把不同变量预先放到了缓存里，而不是变量改变就切换gpu渲染状态
+
+后面3句，TEXTURE2D相关的是图片采集的声明
+
+============================================================================================
+
+再看LitForwardPass.hlsl
+
+Attributes，Varyings分别是vext和frag需要的变量
+UNITY_VERTEX_INPUT_INSTANCE_ID是gpu instance相关
+UNITY_VERTEX_OUTPUT_STEREO xr相关
+----------------------------------------------------------------------------
+LitPassVertex函数是顶点计算
+这里计算了
+世界坐标的
+output.positionWS 世界坐标点位置向量
+output.normalWS 法线，
+output.tangentWS 切线，
+output.viewDirWS视 方向
+output.lightmapUV 光照贴图uv
+output.shadowCoord 阴影uv  
+output.positionCS 猜测是投影空间的位置
+
+顶点shader中需要注意，计算坐标变化的方法
+VertexPositionInputs vertexInput = GetVertexPositionInputs(input.positionOS.xyz);
+VertexNormalInputs normalInput = GetVertexNormalInputs(input.normalOS, input.tangentOS);
+half3 viewDirWS = GetCameraPositionWS() - vertexInput.positionWS;
+
+计算顶点光
+half3 vertexLight = VertexLighting(vertexInput.positionWS, normalInput.normalWS);
+
+计算光照贴图uv
+OUTPUT_LIGHTMAP_UV
+
+球和函数
+OUTPUT_SH
+
+----------------------------------------------------------------------------
+
+LitPassFragment函数是片段计算
+
+处理gpu instance
+UNITY_SETUP_INSTANCE_ID(input);
+
+处理xr
+UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(input);
+
+
+SurfaceData surfaceData;
+InitializeStandardLitSurfaceData(input.uv, surfaceData);
+
+SurfaceData来自SurfaceInput.hlsl
+struct SurfaceData
+{
+    half3 albedo;
+    half3 specular;
+    half  metallic;
+    half  smoothness;
+    half3 normalTS;
+    half3 emission;
+    half  occlusion;
+    half  alpha;
+};
+这句在LitInput.hlsl中，这句的作用就是算出SurfaceData中的值，toonshader就是各种采样算贴图颜色
+InitializeStandardLitSurfaceData
+
+
+InputData inputData;
+InitializeInputData(input, surfaceData.normalTS, inputData);
+
+InputData来自input.hlsl
+struct InputData
+{
+    float3  positionWS;
+    half3   normalWS;
+    half3   viewDirectionWS;
+    float4  shadowCoord;
+    half    fogCoord;
+    half3   vertexLighting;
+    half3   bakedGI;
+};
+
+这个函数用于计算InputData
+InitializeInputData
+
+InputData的作用是获取主次光源数据
+Light mainLight = GetMainLight(inputData.shadowCoord);
+
+Lit中直接使用了
+UniversalFragmentPBR来算pbr颜色了
+隐藏了上面取光源的步骤
+
+
+============================================================================================
