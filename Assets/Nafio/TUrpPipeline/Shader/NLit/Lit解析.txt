@@ -65,7 +65,7 @@ VertexPositionInputs vertexInput = GetVertexPositionInputs(input.positionOS.xyz)
 VertexNormalInputs normalInput = GetVertexNormalInputs(input.normalOS, input.tangentOS);
 half3 viewDirWS = GetCameraPositionWS() - vertexInput.positionWS;
 
-计算顶点光
+计算（所有）顶点光叠加后的颜色
 half3 vertexLight = VertexLighting(vertexInput.positionWS, normalInput.normalWS);
 
 计算光照贴图uv
@@ -101,6 +101,8 @@ struct SurfaceData
     half  alpha;
 };
 这句在LitInput.hlsl中，这句的作用就是算出SurfaceData中的值，toonshader就是各种采样算贴图颜色
+而lit中除了采样基本就是用界面上设置的值给SurfaceData里变量赋值
+简单说SurfaceData就是收集的一些物体表面信息(比如主mainTex就是其中之一)
 InitializeStandardLitSurfaceData
 
 
@@ -126,8 +128,15 @@ InputData的作用是获取主次光源数据
 Light mainLight = GetMainLight(inputData.shadowCoord);
 
 Lit中直接使用了
-UniversalFragmentPBR来算pbr颜色了
-隐藏了上面取光源的步骤
+UniversalFragmentPBR来算pbr颜色了，
+传入的参数就是SurfaceData（物体表面信息）与 InputData
+隐藏了上面取光源的步骤,UniversalFragmentPBR在Lighting.hlsl中
+
+
+
+综上:lit可以基本作为其他shader的模板
+主要修改forward pass中的vext和frag就可以
+后面toon就是个例子
 
 
 ============================================================================================

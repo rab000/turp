@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_AnimeCelBase
+  m_Shader: {fileID: 4800000, guid: 90014b21456c679419df10472c999cf7, type: 3}
+  m_ShaderKeywords: _CLAMP_RIM_LIGHT _CLAMP_SPECULAR _ENABLE_RIM_LIGHT _ENABLE_SPECULAR
+    _HARD_SPECULAR _MULTILIGHTS_NORMAL _ZWRITE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverBlendTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaShadowSoftnessScale: 1
+    - _BaseLightRimLightIntensity: 1
+    - _BaseShadowRadius: 0.01
+    - _BaseShadowThreshold: 0.5
+    - _ClampRimLight: 1
+    - _CullMode: 0
+    - _DstBlend: 0
+    - _EnableClampSpecular: 1
+    - _EnableMultiLightsDebug: 0
+    - _EnableOverBlendTex: 0
+    - _EnableRimLight: 1
+    - _EnableSpecular: 1
+    - _EnableUnityGI: 0
+    - _HardRimLight: 0
+    - _HardSpecular: 1
+    - _Mode: 0
+    - _MultiLights: 1
+    - _MultiLightsIntensity: 1
+    - _Opacity: 1
+    - _OverBlendAffectedByLight: 0
+    - _OverBlendIntensity: 1
+    - _OverBlendMode: 0
+    - _ReceiveShadows: 1
+    - _RimLightPower: 0.487
+    - _RimLightRadius: 0.153
+    - _RimLightThreshold: 0.231
+    - _RimLightXLightColor: 1
+    - _SMTBlueBrightOffsetScale: 1
+    - _ShadowMaskTexAlphaAsShadowSoftness: 0
+    - _ShadowMaskTexBlueAsBrightOffset: 0
+    - _SpecularPower: 0.531
+    - _SpecularRadius: 0.116
+    - _SpecularThreshold: 0.091
+    - _SrcBlend: 1
+    - _SysShadowValue: 1
+    - _UnityGIIntensity: 0.2
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    - _RimLightColor: {r: 0.8679245, g: 0.35617658, b: 0.6881242, a: 1}
+    - _ShadowColor: {r: 0.49056602, g: 0.25222498, b: 0.25222498, a: 1}
+    - _SpecularColor: {r: 0.34199214, g: 0.8867924, b: 0.29699183, a: 1}

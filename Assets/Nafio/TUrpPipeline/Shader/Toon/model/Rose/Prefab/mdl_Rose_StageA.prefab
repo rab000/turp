@@ -1,0 +1,6197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &763889016826565207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5121004014579574688}
+  - component: {fileID: 1948110927958239757}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (Spine2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5121004014579574688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763889016826565207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.08, z: -0.009}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 8405890722809882110}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1948110927958239757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763889016826565207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 0
+  length: 0.058
+  startRadius: 0.09
+  endRadius: 0.09
+--- !u!1 &1057640059956934685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6777894825676208601}
+  - component: {fileID: 313983913949334130}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (RightArm)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6777894825676208601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057640059956934685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.091, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1222055641943630433}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313983913949334130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057640059956934685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 0
+  length: 0.108
+  startRadius: 0.05
+  endRadius: 0.05
+--- !u!1 &1110946768541813669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7889875970484311072}
+  - component: {fileID: 6244406602883612523}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Accessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7889875970484311072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110946768541813669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6244406602883612523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110946768541813669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: -1615548194
+  dataVersion: 4
+  teamData:
+    colliderList:
+    - {fileID: 1574085902821119202}
+    - {fileID: 2021918171459487957}
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.01
+      endValue: 0.02
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -9.8
+      endValue: -6.4
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.06
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0.51
+      useCurveValue: 0
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 30
+      endValue: 30
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 1
+    friction: 0.1
+    keepInitialShape: 0
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 1
+    useFixedNonRotation: 0
+  clothData: {fileID: -763234450630637907}
+  clothDataHash: -1322591277
+  clothDataVersion: 5
+  clothSelection: {fileID: -640036096678330285}
+  clothSelectionHash: 1108854493
+  clothSelectionVersion: 2
+  meshData: {fileID: 5159303116660033140}
+  meshDataHash: 600315646
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 8727997471394495739}
+    - {fileID: 3241344440224786066}
+    - {fileID: 2594445414784594006}
+    - {fileID: 3691939894465712578}
+    - {fileID: 5105465665732876164}
+    - {fileID: 4880726616049887872}
+    - {fileID: 1549716409728614083}
+  useTransformList:
+  - {fileID: 8727997471394495739}
+  - {fileID: 5263376301639032977}
+  - {fileID: 3241344440224786066}
+  - {fileID: 3768924464452328762}
+  - {fileID: 2594445414784594006}
+  - {fileID: 549123921908832164}
+  - {fileID: 3691939894465712578}
+  - {fileID: 2856622817975653600}
+  - {fileID: 4955042168520552814}
+  - {fileID: 5105465665732876164}
+  - {fileID: 5350924215121574959}
+  - {fileID: 4880726616049887872}
+  - {fileID: 8789274817585822284}
+  - {fileID: 741688332730635300}
+  - {fileID: 1549716409728614083}
+  - {fileID: 7735936938839309136}
+  useTransformPositionList:
+  - {x: -0.09979999, y: 0.14978157, z: 0.0015541896}
+  - {x: -0.08865704, y: 1.6237011e-17, z: -8.881784e-18}
+  - {x: -0.087799996, y: 0.1663269, z: -0.0006257041}
+  - {x: -0.049999997, y: 0, z: 0}
+  - {x: -0.0713, y: 0.1934528, z: -0.0017004242}
+  - {x: -0.049999997, y: 0, z: 0}
+  - {x: -0.010399999, y: 0.110140435, z: 0.065364346}
+  - {x: -0.054879706, y: -0.0003882228, z: 0.004583682}
+  - {x: -0.05834222, y: -0.0020805632, z: 0.00028118337}
+  - {x: -0.0095, y: 0.13492584, z: 0.06419653}
+  - {x: -0.06, y: -7.105427e-16, z: 1.7053025e-15}
+  - {x: 0.010399999, y: 0.110140435, z: 0.065364346}
+  - {x: -0.054879706, y: -0.0003882228, z: -0.004583682}
+  - {x: -0.05834222, y: -0.0020805632, z: -0.00028118337}
+  - {x: 0.0095, y: 0.13492584, z: 0.06419653}
+  - {x: -0.06, y: 0, z: 0}
+  useTransformRotationList:
+  - {x: 0.1274042, y: -0.0021908937, z: 0.4955728, w: 0.8591688}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.16786411, y: 0.24316493, z: -0.24284181, w: 0.9239699}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.03748429, y: -0.0332377, z: -0.54415035, w: 0.8374906}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.4053248, y: 0.51879346, z: 0.2867109, w: 0.69596124}
+  - {x: -0.038081724, y: 0.12462989, z: 0.015393346, w: 0.99135274}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.6467938, y: 0.15026322, z: 0.0065987976, w: 0.7476866}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.2867109, y: 0.69596124, z: 0.4053248, w: 0.51879346}
+  - {x: 0.038081724, y: -0.12462989, z: 0.015393346, w: 0.99135274}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.0065987976, y: 0.7476866, z: 0.6467938, w: 0.15026322}
+  - {x: 0, y: -0, z: -0, w: 1}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1 &1203225270254938788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2281012689230760980}
+  - component: {fileID: 1751251584926760750}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (LeftUpLeg)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2281012689230760980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203225270254938788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.011, y: -0.219, z: 0.003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 747963263069535792}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1751251584926760750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203225270254938788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 1
+  length: 0.124
+  startRadius: 0.09
+  endRadius: 0.12
+--- !u!1 &1606317641444896718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5223750296864436197}
+  - component: {fileID: 2824860465211247319}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (RightUpLeg)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5223750296864436197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606317641444896718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.011, y: -0.219, z: 0.003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274421970760729021}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2824860465211247319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606317641444896718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 1
+  length: 0.124
+  startRadius: 0.09
+  endRadius: 0.12
+--- !u!1 &2163077738298952764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7553535331857408507}
+  - component: {fileID: 1574085902821119202}
+  m_Layer: 0
+  m_Name: Magica Sphere Collider (Head)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7553535331857408507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2163077738298952764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.064, z: 0.012}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 5236606248530113169}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574085902821119202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2163077738298952764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a15aa59f941764a9ac8c746b2f883b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  radius: 0.082
+--- !u!1 &2701302447854269788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540720829268193952}
+  - component: {fileID: 2021918171459487957}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (Spine2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1540720829268193952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701302447854269788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.0079, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 8405890722809882110}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2021918171459487957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701302447854269788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 0
+  length: 0.036
+  startRadius: 0.1
+  endRadius: 0.1
+--- !u!1 &2717929748956633874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2674702811972957953}
+  - component: {fileID: 3317698818077185511}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Other Hair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2674702811972957953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2717929748956633874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3317698818077185511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2717929748956633874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: -67785984
+  dataVersion: 4
+  teamData:
+    colliderList:
+    - {fileID: 1574085902821119202}
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.02
+      endValue: 0.02
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -9.8
+      endValue: -6.4
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.06
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.04
+      useEndValue: 1
+      curveValue: 0.51
+      useCurveValue: 1
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 30
+      endValue: 30
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 1
+    friction: 0.5
+    keepInitialShape: 0
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 1
+    useFixedNonRotation: 0
+  clothData: {fileID: 7554819712430192375}
+  clothDataHash: -1322591366
+  clothDataVersion: 5
+  clothSelection: {fileID: 6823028363725115646}
+  clothSelectionHash: 1356708189
+  clothSelectionVersion: 2
+  meshData: {fileID: -639075054568396807}
+  meshDataHash: 600315608
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 3760411656134562950}
+    - {fileID: 8653952787828350347}
+    - {fileID: 3566354179946107672}
+  useTransformList:
+  - {fileID: 3760411656134562950}
+  - {fileID: 1431924154477143869}
+  - {fileID: 8653952787828350347}
+  - {fileID: 3865510102284673291}
+  - {fileID: 3566354179946107672}
+  - {fileID: 5282104491026407618}
+  useTransformPositionList:
+  - {x: -0.00003240741, y: 0.09085825, z: 0.08848306}
+  - {x: -0.047736995, y: -0.0009295568, z: 5.7501543e-18}
+  - {x: -0.04953873, y: 0.09410809, z: 0.08257246}
+  - {x: -0.03, y: 2.1316282e-16, z: -2.4868996e-16}
+  - {x: 0.049538698, y: 0.09410834, z: 0.08257229}
+  - {x: -0.030000554, y: -1.4210854e-16, z: 4.0856205e-16}
+  useTransformRotationList:
+  - {x: 0.51291716, y: 0.4867402, z: 0.51291716, w: 0.4867402}
+  - {x: 0, y: 0, z: 0.026176948, w: 0.99965733}
+  - {x: 0.4174476, y: 0.45685154, z: 0.59773016, w: 0.50964975}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.6133446, y: 0.5406479, z: 0.39405766, w: 0.41979373}
+  - {x: 0, y: -0, z: -0, w: 1}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1 &3969368523422709331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905464148317696752}
+  - component: {fileID: 1953434025523136635}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (LeftArm)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1905464148317696752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969368523422709331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.091, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 751898434429647207}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953434025523136635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969368523422709331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 0
+  length: 0.108
+  startRadius: 0.05
+  endRadius: 0.05
+--- !u!1 &4512883639626112758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419081724294912987}
+  - component: {fileID: 2680588992947062402}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (Hips)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419081724294912987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512883639626112758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.155, z: -0.071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7143799769894761804}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2680588992947062402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512883639626112758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ec582e8d6cb504fb1d0160568835a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  axis: 0
+  length: 0.096
+  startRadius: 0.12
+  endRadius: 0.12
+--- !u!1 &6908381161589340191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6895977523401656891}
+  - component: {fileID: 5049618780794980827}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Skirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6895977523401656891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6908381161589340191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5049618780794980827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6908381161589340191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: 917922506
+  dataVersion: 4
+  teamData:
+    colliderList:
+    - {fileID: 1751251584926760750}
+    - {fileID: 2824860465211247319}
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.025
+      endValue: 0.02
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -9.8
+      endValue: -7
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.07
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0.4
+      useCurveValue: 0
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 30
+      endValue: 30
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 1
+    friction: 0.2
+    keepInitialShape: 0
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 1
+    useFixedNonRotation: 0
+  clothData: {fileID: 719388028279840778}
+  clothDataHash: -1322591119
+  clothDataVersion: 5
+  clothSelection: {fileID: -3474360094472563288}
+  clothSelectionHash: -1659945736
+  clothSelectionVersion: 2
+  meshData: {fileID: 2225651716783535267}
+  meshDataHash: 600315723
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 8452882576276218814}
+    - {fileID: 6603444653556354678}
+    - {fileID: 858603492262894437}
+    - {fileID: 5358635181381433279}
+    - {fileID: 2466783362954613874}
+    - {fileID: 8700568394622646750}
+    - {fileID: 7112315536409630324}
+    - {fileID: 4260666843239972168}
+  useTransformList:
+  - {fileID: 8452882576276218814}
+  - {fileID: 6911639201142055437}
+  - {fileID: 2412539543726188651}
+  - {fileID: 630198310806499401}
+  - {fileID: 6603444653556354678}
+  - {fileID: 8583780880089894050}
+  - {fileID: 7079997135892088438}
+  - {fileID: 8995974798673525412}
+  - {fileID: 858603492262894437}
+  - {fileID: 105114749008251712}
+  - {fileID: 2762005663863516861}
+  - {fileID: 346837618693117185}
+  - {fileID: 5358635181381433279}
+  - {fileID: 4853397884426179491}
+  - {fileID: 6001432056415757638}
+  - {fileID: 4986113795409094620}
+  - {fileID: 2466783362954613874}
+  - {fileID: 4068031793663193492}
+  - {fileID: 5320200601413330981}
+  - {fileID: 2090659144685945360}
+  - {fileID: 8700568394622646750}
+  - {fileID: 7792725833686489245}
+  - {fileID: 6125520331916071073}
+  - {fileID: 5795537051912480451}
+  - {fileID: 7112315536409630324}
+  - {fileID: 7472657569960148635}
+  - {fileID: 3624724759356656558}
+  - {fileID: 402315060364665593}
+  - {fileID: 4260666843239972168}
+  - {fileID: 1499645196823516300}
+  - {fileID: 7804102489687381997}
+  - {fileID: 3386575324834279348}
+  useTransformPositionList:
+  - {x: -0.10771135, y: 0.082349755, z: -0.009283592}
+  - {x: -0.07198422, y: -1.4210854e-16, z: 4.440892e-18}
+  - {x: -0.07198422, y: 2.842171e-16, z: -1.7763568e-17}
+  - {x: -0.07198422, y: 4.2632563e-16, z: -2.220446e-18}
+  - {x: -0.0704838, y: 0.08299397, z: -0.07801639}
+  - {x: -0.07601106, y: 2.842171e-16, z: -1.7763568e-17}
+  - {x: -0.07601106, y: 8.5265126e-16, z: -1.2434498e-16}
+  - {x: -0.07601106, y: 3.5527135e-16, z: 8.8817837e-17}
+  - {x: -0.06803848, y: 0.069794334, z: 0.06615793}
+  - {x: -0.074999996, y: 4.2632563e-16, z: -5.3290704e-17}
+  - {x: -0.074999996, y: 4.2632563e-16, z: 1.0658141e-16}
+  - {x: -0.074999996, y: 3.5527135e-16, z: -5.3290704e-17}
+  - {x: 0.10771286, y: 0.082349755, z: -0.009283592}
+  - {x: -0.07198422, y: 7.105427e-16, z: -1.11022296e-17}
+  - {x: -0.07198422, y: 1.4210854e-16, z: 1.7763568e-17}
+  - {x: -0.07198422, y: 5.684342e-16, z: -4.4408918e-17}
+  - {x: 0.0704838, y: 0.08299397, z: -0.07801639}
+  - {x: -0.07601421, y: 2.1316282e-16, z: -4.4408918e-17}
+  - {x: -0.07601421, y: 0, z: 8.8817837e-17}
+  - {x: -0.07601421, y: 4.2632563e-16, z: -2.6645352e-17}
+  - {x: 0.06803848, y: 0.069794334, z: 0.06615793}
+  - {x: -0.074999996, y: 7.81597e-16, z: 3.0198067e-16}
+  - {x: -0.074999996, y: 2.1316282e-16, z: -1.5987211e-16}
+  - {x: -0.074999996, y: 3.5527135e-16, z: 3.5527136e-17}
+  - {x: 9.290648e-18, y: 0.08318395, z: -0.099021606}
+  - {x: -0.078486465, y: 3.5527135e-16, z: -1.12217315e-17}
+  - {x: -0.078486465, y: 2.842171e-16, z: -1.12217315e-17}
+  - {x: -0.078486465, y: 2.842171e-16, z: -1.12217315e-17}
+  - {x: -4.0599125e-18, y: 0.06296743, z: 0.082870774}
+  - {x: -0.074999996, y: 4.973799e-16, z: 5.3368695e-19}
+  - {x: -0.074999996, y: 7.81597e-16, z: 5.3368695e-19}
+  - {x: -0.074999996, y: 2.1316282e-16, z: 5.3368695e-19}
+  useTransformRotationList:
+  - {x: 0.029022997, y: 0.013670045, z: 0.4087575, w: 0.91207904}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: -0.21434774, y: -0.38658568, z: 0.41757157, w: 0.7938769}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.27320176, y: 0.3708407, z: 0.45065767, w: 0.7646867}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.4087575, y: 0.91207904, z: 0.029022997, w: 0.013670045}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.41757157, y: 0.7938769, z: -0.21434774, w: -0.38658568}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.45065764, y: 0.76468664, z: 0.27320173, w: 0.37084067}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: -0.34987903, y: -0.6144792, z: 0.34987903, w: 0.6144792}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.38552657, y: 0.5927641, z: 0.38552657, w: 0.5927641}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1 &7842926128045393037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3082385083259933610}
+  - component: {fileID: 4428160236416722313}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Hip Ribbon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3082385083259933610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842926128045393037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4428160236416722313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842926128045393037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: 509870059
+  dataVersion: 4
+  teamData:
+    colliderList: []
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.0637
+      endValue: 0.0629
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -6
+      endValue: -3.4
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.07
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 5
+      useEndValue: 1
+      curveValue: 0.46
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.07
+      useEndValue: 1
+      curveValue: 0.64
+      useCurveValue: 1
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 0
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 0
+    friction: 0.5
+    keepInitialShape: 0
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 1
+    useFixedNonRotation: 0
+  clothData: {fileID: 300041941021431924}
+  clothDataHash: -1322591341
+  clothDataVersion: 5
+  clothSelection: {fileID: -7283844689427773064}
+  clothSelectionHash: -2117895106
+  clothSelectionVersion: 2
+  meshData: {fileID: 7007864357334419453}
+  meshDataHash: 600315621
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 5603227308316364438}
+    - {fileID: 4347669953343657135}
+  useTransformList:
+  - {fileID: 5603227308316364438}
+  - {fileID: 8564945846700121455}
+  - {fileID: 7640791027036051624}
+  - {fileID: 6572221560103380787}
+  - {fileID: 4347669953343657135}
+  - {fileID: 1244222301543999765}
+  - {fileID: 1710879034430524750}
+  - {fileID: 1796616003569693296}
+  useTransformPositionList:
+  - {x: -0.0056103715, y: 0.12669446, z: -0.09404901}
+  - {x: -0.101023614, y: -0.0013539782, z: 0.001082014}
+  - {x: -0.101032674, y: 0.0014462635, z: -0.000155098}
+  - {x: -0.100978285, y: -0.0027263036, z: 0.000117816395}
+  - {x: 0.0056103715, y: 0.12669446, z: -0.09404901}
+  - {x: -0.101023614, y: -0.0013539782, z: -0.001082014}
+  - {x: -0.101032674, y: 0.0014462635, z: 0.000155098}
+  - {x: -0.100978285, y: -0.0027263036, z: -0.000117816395}
+  useTransformRotationList:
+  - {x: -0.13141637, y: -0.589289, z: 0.18085204, w: 0.77637666}
+  - {x: -0.0066122883, y: 0.010966813, z: 0.018172998, w: 0.9997529}
+  - {x: -0.015708331, y: -0.0012818312, z: -0.010469219, w: 0.999821}
+  - {x: 0.01894068, y: 0.0016462835, z: 0.03206674, w: 0.9993049}
+  - {x: -0.18085204, y: -0.77637666, z: 0.13141637, w: 0.589289}
+  - {x: 0.0066122883, y: -0.010966813, z: 0.018172998, w: 0.9997529}
+  - {x: 0.015708331, y: 0.0012818312, z: -0.010469219, w: 0.999821}
+  - {x: -0.01894068, y: -0.0016462835, z: 0.03206674, w: 0.9993049}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1 &8168921381845572949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2493477374193007774}
+  - component: {fileID: 7478479245655398873}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Back Long Ribbon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2493477374193007774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168921381845572949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7478479245655398873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168921381845572949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: 561937152
+  dataVersion: 4
+  teamData:
+    colliderList:
+    - {fileID: 2680588992947062402}
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.05
+      endValue: 0.02
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -6
+      endValue: -6
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.02
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 5
+      useEndValue: 1
+      curveValue: 0.46
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0.64
+      useCurveValue: 1
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 0
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 1
+    friction: 0.1
+    keepInitialShape: 1
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 1
+    useFixedNonRotation: 0
+  clothData: {fileID: 5903127681636003546}
+  clothDataHash: -1322591184
+  clothDataVersion: 5
+  clothSelection: {fileID: 780548682386458248}
+  clothSelectionHash: 720353984
+  clothSelectionVersion: 2
+  meshData: {fileID: -1213161988277580847}
+  meshDataHash: 600315695
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 1334129555304906061}
+    - {fileID: 370124779017965907}
+    - {fileID: 9215810890938801770}
+    - {fileID: 1391338820269783560}
+  useTransformList:
+  - {fileID: 1334129555304906061}
+  - {fileID: 6815281653546547136}
+  - {fileID: 1070832775749268605}
+  - {fileID: 9002520238492127283}
+  - {fileID: 9044501437101820473}
+  - {fileID: 1889220498497033936}
+  - {fileID: 1058369073244426411}
+  - {fileID: 370124779017965907}
+  - {fileID: 6723082303219996603}
+  - {fileID: 3341962577744959924}
+  - {fileID: 5944978585860855233}
+  - {fileID: 8345005005789367652}
+  - {fileID: 9215810890938801770}
+  - {fileID: 7385241368813096265}
+  - {fileID: 4822123967735651297}
+  - {fileID: 1164283379320260107}
+  - {fileID: 814412951971186677}
+  - {fileID: 308060163544928779}
+  - {fileID: 6439688479727312615}
+  - {fileID: 1391338820269783560}
+  - {fileID: 3502934659871492472}
+  - {fileID: 3725557166976758178}
+  - {fileID: 5029236483111168814}
+  - {fileID: 3913990211220577158}
+  useTransformPositionList:
+  - {x: -0.0051340465, y: 0.11379775, z: -0.08776273}
+  - {x: -0.16, y: 0, z: 9.7699626e-17}
+  - {x: -0.16, y: -1.4210854e-16, z: 1.0658141e-16}
+  - {x: -0.16, y: 8.5265126e-16, z: 1.9539925e-16}
+  - {x: -0.16, y: 1.4210854e-16, z: -9.7699626e-17}
+  - {x: -0.16, y: 7.105427e-16, z: -1.3711255e-16}
+  - {x: -0.06372366, y: -7.105427e-17, z: -7.105427e-17}
+  - {x: -0.1008445, y: 0.10189156, z: -0.053837214}
+  - {x: -0.09133, y: -0.0020530922, z: -0.00012289027}
+  - {x: -0.09133, y: -0.00055105425, z: -0.0000441718}
+  - {x: -0.09133, y: -0.003912342, z: -0.00022032943}
+  - {x: -0.09133, y: -0.0012475252, z: -0.000080672304}
+  - {x: 0.0051308265, y: 0.11379771, z: -0.087762766}
+  - {x: -0.16, y: -2.842171e-16, z: 8.881784e-18}
+  - {x: -0.16, y: -5.684342e-16, z: -7.105427e-17}
+  - {x: -0.16, y: 8.5265126e-16, z: 5.7731595e-17}
+  - {x: -0.16, y: -2.842171e-16, z: -1.9984014e-16}
+  - {x: -0.16, y: 2.842171e-16, z: -2.4424907e-16}
+  - {x: -0.06372366, y: -1.4210854e-16, z: -1.2434498e-16}
+  - {x: 0.1008396, y: 0.101891555, z: -0.053837247}
+  - {x: -0.0913329, y: -0.0020530922, z: -0.00012289027}
+  - {x: -0.09154269, y: -0.00055105425, z: -0.0000441718}
+  - {x: -0.090781055, y: -0.003912342, z: -0.00022032943}
+  - {x: -0.118467465, y: -0.0012475252, z: -0.000080672304}
+  useTransformRotationList:
+  - {x: -0.16554667, y: -0.52002627, z: 0.25418752, w: 0.79847085}
+  - {x: 0, y: 0, z: 0.082598634, w: 0.9965829}
+  - {x: 0, y: 0, z: 0.082598634, w: 0.9965829}
+  - {x: 0, y: 0, z: 0.083444335, w: 0.9965125}
+  - {x: -0.0025192539, y: 0.019737579, z: 0.09600809, w: 0.9951817}
+  - {x: 0.0019121849, y: -0.019750742, z: 0.1404882, w: 0.9898835}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: -0.16603124, y: -0.44395947, z: 0.2112596, w: 0.8548117}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: -0.25418657, y: -0.7984717, z: 0.16554654, w: 0.52002543}
+  - {x: 0, y: 0, z: 0.082598634, w: 0.9965829}
+  - {x: 0, y: 0, z: 0.082598634, w: 0.9965829}
+  - {x: 0, y: 0, z: 0.083444335, w: 0.9965125}
+  - {x: 0.0025191037, y: -0.019736024, z: 0.09600809, w: 0.9951817}
+  - {x: -0.001912559, y: 0.019754607, z: 0.14048819, w: 0.9898834}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.2112595, y: 0.8548122, z: -0.16603023, w: -0.44395894}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  - {x: 0, y: 0, z: 0.033281766, w: 0.99944603}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1 &8532299929831180451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6503298180298024370}
+  - component: {fileID: 94353990909255278}
+  m_Layer: 0
+  m_Name: Magica Bone Cloth Long Hair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6503298180298024370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532299929831180451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902705146847619628}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &94353990909255278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532299929831180451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b926eb37fed1d748b80e3b4756bc569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHash: 1641069051
+  dataVersion: 4
+  teamData:
+    colliderList:
+    - {fileID: 1574085902821119202}
+    - {fileID: 1948110927958239757}
+    - {fileID: 1953434025523136635}
+    - {fileID: 313983913949334130}
+    penetrationIgnoreColliderList: []
+    userBlendRatio: 1
+  clothParams:
+    radius:
+      startValue: 0.02
+      endValue: 0.02
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    mass:
+      startValue: 10
+      endValue: 1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useGravity: 1
+    gravity:
+      startValue: -9.8
+      endValue: -9.8
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useDirectionalDamping: 1
+    directionalDampingObject: {fileID: 0}
+    directionalDamping:
+      startValue: 1
+      endValue: 0.1
+      useEndValue: 1
+      curveValue: -0.5
+      useCurveValue: 1
+    useDrag: 1
+    drag:
+      startValue: 0.01
+      endValue: 0.06
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useMaxVelocity: 1
+    maxVelocity:
+      startValue: 3
+      endValue: 5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    influenceTarget: {fileID: 0}
+    worldMoveInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    worldRotationInfluence:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    massInfluence: 0.3
+    windInfluence: 1
+    windRandomScale: 0.7
+    useDistanceDisable: 0
+    disableReferenceObject: {fileID: 0}
+    disableDistance: 20
+    disableFadeDistance: 5
+    useResetTeleport: 0
+    teleportDistance: 0.2
+    teleportRotation: 45
+    useClampDistanceRatio: 1
+    clampDistanceMinRatio: 0.7
+    clampDistanceMaxRatio: 1.1
+    clampDistanceVelocityInfluence: 0.5
+    useClampPositionLength: 1
+    clampPositionLength:
+      startValue: 0
+      endValue: 0.4
+      useEndValue: 1
+      curveValue: 0.2
+      useCurveValue: 1
+    clampPositionRatioX: 0.5
+    clampPositionRatioY: 1
+    clampPositionRatioZ: 1
+    clampPositionVelocityInfluence: 0.5
+    useClampRotation: 0
+    clampRotationAngle:
+      startValue: 30
+      endValue: 30
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    clampRotationVelocityInfluence: 0.3
+    restoreDistanceVelocityInfluence: 1
+    structDistanceStiffness:
+      startValue: 1
+      endValue: 1
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useBendDistance: 0
+    bendDistanceMaxCount: 2
+    bendDistanceStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useNearDistance: 0
+    nearDistanceMaxCount: 3
+    nearDistanceMaxDepth: 1
+    nearDistanceLength:
+      startValue: 0.05
+      endValue: 0.05
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    nearDistanceStiffness:
+      startValue: 0.3
+      endValue: 0.3
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useRestoreRotation: 0
+    restoreRotation:
+      startValue: 0.01
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    restoreRotationVelocityInfluence: 0.5
+    useSpring: 0
+    springPower: 0
+    springRadius: 0
+    springScaleX: 1
+    springScaleY: 1
+    springScaleZ: 1
+    springIntensity: 1
+    springDirectionAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.234
+      useCurveValue: 1
+    springDistanceAtten:
+      startValue: 1
+      endValue: 0
+      useEndValue: 1
+      curveValue: 0.395
+      useCurveValue: 1
+    useAdjustRotation: 0
+    adjustMode: 0
+    adjustRotationPower: 0
+    useTriangleBend: 0
+    triangleBend:
+      startValue: 0.03
+      endValue: 0.03
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useVolume: 0
+    maxVolumeLength: 0.05
+    volumeStretchStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    volumeShearStiffness:
+      startValue: 0.5
+      endValue: 0.5
+      useEndValue: 0
+      curveValue: 0
+      useCurveValue: 0
+    useCollision: 1
+    friction: 0
+    keepInitialShape: 0
+    usePenetration: 0
+    penetrationMode: 0
+    penetrationAxis: 5
+    penetrationMaxDepth: 1
+    penetrationConnectDistance:
+      startValue: 0.2
+      endValue: 0.3
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationDistance:
+      startValue: 0.1
+      endValue: 0.2
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    penetrationRadius:
+      startValue: 0.3
+      endValue: 1
+      useEndValue: 1
+      curveValue: 0
+      useCurveValue: 0
+    useLineAvarageRotation: 0
+    useFixedNonRotation: 0
+  clothData: {fileID: -6211833960888201247}
+  clothDataHash: -1322591283
+  clothDataVersion: 5
+  clothSelection: {fileID: -8538258065886190987}
+  clothSelectionHash: 656192575
+  clothSelectionVersion: 2
+  meshData: {fileID: 6302338749283176050}
+  meshDataHash: 600315648
+  meshDataVersion: 2
+  clothTarget:
+    rootList:
+    - {fileID: 80942788752435042}
+    - {fileID: 6105599144870213062}
+    - {fileID: 6245956836516913899}
+  useTransformList:
+  - {fileID: 80942788752435042}
+  - {fileID: 7315740005283243894}
+  - {fileID: 5333400175294573802}
+  - {fileID: 6619527637242904666}
+  - {fileID: 146667816321301113}
+  - {fileID: 6105599144870213062}
+  - {fileID: 8596770575783704776}
+  - {fileID: 5650076002156514225}
+  - {fileID: 4227149131328461528}
+  - {fileID: 4495735037296454495}
+  - {fileID: 6245956836516913899}
+  - {fileID: 7595540100479392255}
+  - {fileID: 4063839467562950781}
+  - {fileID: 4184007032885067562}
+  useTransformPositionList:
+  - {x: -0.09814883, y: 0.07478286, z: 0.017538287}
+  - {x: -0.047762312, y: 5.3290704e-17, z: -4.4408918e-17}
+  - {x: -0.047762312, y: 0, z: 1.7763567e-16}
+  - {x: -0.047762312, y: 7.105427e-17, z: -1.4210854e-16}
+  - {x: -0.047762312, y: 1.3322676e-17, z: 0}
+  - {x: 0.09814999, y: 0.07478286, z: 0.017538287}
+  - {x: -0.047762312, y: 5.3290704e-17, z: -5.3290704e-17}
+  - {x: -0.047762312, y: 0, z: 2.1316282e-16}
+  - {x: -0.047762312, y: 8.8817837e-17, z: 7.105427e-17}
+  - {x: -0.047762312, y: -1.7763568e-17, z: -1.4210854e-16}
+  - {x: -3.541486e-16, y: 0.09514467, z: -0.10409816}
+  - {x: -0.09164477, y: -7.105427e-17, z: 1.8463492e-18}
+  - {x: -0.09164477, y: -4.6185276e-16, z: 1.0728134e-17}
+  - {x: -0.09164477, y: 2.842171e-16, z: -1.3138041e-16}
+  useTransformRotationList:
+  - {x: 0.18626527, y: 0.1917517, z: 0.67157763, w: 0.69102824}
+  - {x: 0, y: 0.057814166, z: -0, w: 0.9983274}
+  - {x: 0.003432085, y: 0.13092345, z: 0.025979718, w: 0.9910461}
+  - {x: 0.010404857, y: 0.18615419, z: 0.054828107, w: 0.9809344}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0.6857344, y: 0.7046328, z: 0.12532942, w: 0.1324902}
+  - {x: 0, y: -0.05781668, z: -0, w: 0.99832726}
+  - {x: 0.01052947, y: -0.13054487, z: 0.027821507, w: 0.99099606}
+  - {x: 0.032603454, y: -0.1835693, z: 0.0629353, w: 0.9804481}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: -0.47070917, y: -0.5276674, z: 0.47070917, w: 0.5276674}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  - {x: 0, y: -0, z: -0, w: 1}
+  useTransformScaleList:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!1001 &6853757965391970614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9172677550846637162, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d8cd6b792fe165499369ebd3ddafefe, type: 2}
+    - target: {fileID: -8260032979303453560, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6bd65b2c0444994e9adc3faefdfd603, type: 2}
+    - target: {fileID: -6057140222963153312, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0418c201591ad4f44ad2ba0b192706cf, type: 2}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.541
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3876586785754570004, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 408ca046f0865c4449f89cc92b9dca45, type: 2}
+    - target: {fileID: -927199367670048503, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Name
+      value: mdl_Rose_StageA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7119872173192046956, guid: b18ba65f41979524e901e2b5023a6b62,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d8cd6b792fe165499369ebd3ddafefe, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b18ba65f41979524e901e2b5023a6b62, type: 3}
+--- !u!4 &8995974798673525412 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6645782649317327982, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &858603492262894437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3100957191238313389, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &105114749008251712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6802689162043181686, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2762005663863516861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8739777183280721803, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &346837618693117185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2608351142878161865, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &747963263069535792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6159864436195360518, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7079997135892088438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4421483068260403008, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8583780880089894050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6340285741754675820, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6603444653556354678 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 340397132724604736, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4347669953343657135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7154942480960542105, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1244222301543999765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5645593196883306531, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1710879034430524750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3989287789310751624, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1796616003569693296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4038695109984980154, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9215810890938801770 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6847631273869697188, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7385241368813096265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5088832919243420545, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4822123967735651297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7064229452490302761, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1164283379320260107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5707517710137018173, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &814412951971186677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3147997665652308285, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &308060163544928779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6582859234625065789, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6439688479727312615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451254978856820689, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1391338820269783560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3723782242752431298, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3502934659871492472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8034874790101256270, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3725557166976758178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1391992648507707244, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5029236483111168814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7289604441270392296, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3913990211220577158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1635868987758093648, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5358635181381433279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1531438007030642313, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4853397884426179491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2037820728286089877, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6001432056415757638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 888385767477142640, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4986113795409094620 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7336561040052066582, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2466783362954613874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -205275622741535420, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4068031793663193492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7451766138657796258, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5320200601413330981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1641657502154025235, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2090659144685945360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4458858416867327194, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8700568394622646750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6367016380406400792, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7792725833686489245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3690737643824732587, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6125520331916071073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 729381684729549207, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5795537051912480451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1112550395163109365, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4274421970760729021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7227358949830344843, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &630198310806499401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2908311021919833729, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2412539543726188651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9108107347935406429, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6911639201142055437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9154019561932201157, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7112315536409630324 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4443211986439853890, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7472657569960148635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5140499462960250963, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3624724759356656558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7877054650203310744, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402315060364665593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6523534312814552015, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4260666843239972168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7223102434592898174, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1499645196823516300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5463640210551608762, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7804102489687381997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5525690984953833765, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3386575324834279348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1016976932687253886, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8405890722809882110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6072319467140619064, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3691939894465712578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1431837593723891468, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2856622817975653600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8699181929444382166, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4955042168520552814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2008227304518381656, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &751898434429647207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6157044298205935697, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8452882576276218814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6173349439760424312, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8345005005789367652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3229671749824007250, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5944978585860855233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8242222800908380937, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5105465665732876164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1857507761123186354, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5350924215121574959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1540017456488791321, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5236606248530113169 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1707243787577406375, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6245956836516913899 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 699016892420072413, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7595540100479392255 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5299127123737421623, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4063839467562950781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1767424292066418357, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4184007032885067562 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1941644402524357092, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3760411656134562950 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1498894981055457872, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1431924154477143869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5531062319952963083, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8653952787828350347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6411871621984559939, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3865510102284673291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1533338802478784451, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &80942788752435042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6774224759942456916, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7315740005283243894 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5000180547529152960, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5333400175294573802 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1520382401610591708, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6619527637242904666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 342337201370022252, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &146667816321301113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2516279550776607921, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8727997471394495739 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6467903557641650739, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5263376301639032977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7631854989092707929, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3241344440224786066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -871761989654255708, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3768924464452328762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7732848074510605324, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2594445414784594006 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -352368371027594912, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &549123921908832164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6378101762527254162, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3566354179946107672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7954285710114787886, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5282104491026407618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7615377500139511308, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6105599144870213062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8384010785967590160, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8596770575783704776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2905012817091328510, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5650076002156514225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1257747563471096455, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4227149131328461528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7328668532678220782, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4495735037296454495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2199586493639136663, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3341962577744959924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8177544942836668546, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6723082303219996603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9056634167381076339, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &370124779017965907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6503059357823848549, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4880726616049887872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2064516085490903990, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8789274817585822284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2802565458149800826, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &741688332730635300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3074145358985079534, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1222055641943630433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5758113460382507863, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1058369073244426411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3337900019325922915, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1889220498497033936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4239386406935586842, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9044501437101820473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2493295094422539023, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1549716409728614083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5376385719860658165, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7735936938839309136 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3766945692672047718, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9002520238492127283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6633220630317117179, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1070832775749268605 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5891038384793597259, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6815281653546547136 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 110846167730992886, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1334129555304906061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3630262705790829445, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6572221560103380787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8923803228016908795, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7640791027036051624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3824957387027552670, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8564945846700121455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6214478955274707879, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5603227308316364438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7863327820741193824, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7143799769894761804 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4341065987587142778, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1902705146847619628 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b18ba65f41979524e901e2b5023a6b62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6853757965391970614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8538258065886190987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Long Hair
+  m_EditorClassIdentifier: 
+  dataHash: 656192575
+  dataVersion: 2
+  selectionList:
+  - selectData: 0200000001000000010000000100000001000000020000000100000001000000010000000100000002000000010000000100000001000000
+    vertexHashList: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &-7283844689427773064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Hip Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: -2117895106
+  dataVersion: 2
+  selectionList:
+  - selectData: 0200000001000000010000000100000002000000010000000100000001000000
+    vertexHashList: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &-6211833960888201247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Long Hair
+  m_EditorClassIdentifier: 
+  dataHash: -1322591283
+  dataVersion: 5
+  useVertexList: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+  selectionData: 0200000001000000010000000100000001000000020000000100000001000000010000000100000002000000010000000100000001000000
+  maxLevel: 5
+  vertexFlagLevelList: 0100000002000000030000000400000005000100010000000200000003000000040000000500010001000000020000000300000004000100
+  vertexDepthList:
+  - 0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1
+  - 0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1
+  - 0
+  - 0.25
+  - 0.5
+  - 0.75
+  rootList: ffffffff00000000000000000000000000000000ffffffff05000000050000000500000005000000ffffffff0a0000000a0000000a000000
+  parentList: ffffffff00000000010000000200000003000000ffffffff05000000060000000700000008000000ffffffff0a0000000b0000000c000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.047762353
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.047762353
+  - vertexIndex: 1
+    targetVertexIndex: 2
+    length: 0.047762353
+  - vertexIndex: 2
+    targetVertexIndex: 1
+    length: 0.047762353
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.047762264
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.047762264
+  - vertexIndex: 3
+    targetVertexIndex: 4
+    length: 0.04776235
+  - vertexIndex: 4
+    targetVertexIndex: 3
+    length: 0.04776235
+  - vertexIndex: 5
+    targetVertexIndex: 6
+    length: 0.047762353
+  - vertexIndex: 6
+    targetVertexIndex: 5
+    length: 0.047762353
+  - vertexIndex: 6
+    targetVertexIndex: 7
+    length: 0.047762312
+  - vertexIndex: 7
+    targetVertexIndex: 6
+    length: 0.047762312
+  - vertexIndex: 7
+    targetVertexIndex: 8
+    length: 0.047762245
+  - vertexIndex: 8
+    targetVertexIndex: 7
+    length: 0.047762245
+  - vertexIndex: 8
+    targetVertexIndex: 9
+    length: 0.047762338
+  - vertexIndex: 9
+    targetVertexIndex: 8
+    length: 0.047762338
+  - vertexIndex: 10
+    targetVertexIndex: 11
+    length: 0.09164479
+  - vertexIndex: 11
+    targetVertexIndex: 10
+    length: 0.09164479
+  - vertexIndex: 11
+    targetVertexIndex: 12
+    length: 0.09164478
+  - vertexIndex: 12
+    targetVertexIndex: 11
+    length: 0.09164478
+  - vertexIndex: 12
+    targetVertexIndex: 13
+    length: 0.09164479
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.09164479
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 2
+  - startIndex: 3
+    count: 2
+  - startIndex: 5
+    count: 2
+  - startIndex: 7
+    count: 1
+  - startIndex: 8
+    count: 1
+  - startIndex: 9
+    count: 2
+  - startIndex: 11
+    count: 2
+  - startIndex: 13
+    count: 2
+  - startIndex: 15
+    count: 1
+  - startIndex: 16
+    count: 1
+  - startIndex: 17
+    count: 2
+  - startIndex: 19
+    count: 2
+  - startIndex: 21
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.047762353
+  - vertexIndex: 2
+    targetVertexIndex: 0
+    length: 0.09536492
+  - vertexIndex: 3
+    targetVertexIndex: 0
+    length: 0.14145504
+  - vertexIndex: 4
+    targetVertexIndex: 0
+    length: 0.18275036
+  - vertexIndex: 6
+    targetVertexIndex: 5
+    length: 0.047762353
+  - vertexIndex: 7
+    targetVertexIndex: 5
+    length: 0.09536487
+  - vertexIndex: 8
+    targetVertexIndex: 5
+    length: 0.14145492
+  - vertexIndex: 9
+    targetVertexIndex: 5
+    length: 0.1827396
+  - vertexIndex: 11
+    targetVertexIndex: 10
+    length: 0.09164479
+  - vertexIndex: 12
+    targetVertexIndex: 10
+    length: 0.18328956
+  - vertexIndex: 13
+    targetVertexIndex: 10
+    length: 0.27493435
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 0
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 1
+  - startIndex: 8
+    count: 0
+  - startIndex: 8
+    count: 1
+  - startIndex: 9
+    count: 1
+  - startIndex: 10
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 1
+    childStartDataIndex: 2
+    localPos:
+      x: -0.047762353
+      y: 0.000000010038624
+      z: 6.003564e-11
+    localRot:
+      value:
+        x: 0.000000033113764
+        y: 0.057814185
+        z: 0.00000006176235
+        w: 0.99832743
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: -0.047762357
+      y: -0.00000005993502
+      z: 0.000000039630628
+    localRot:
+      value:
+        x: 0.0034320562
+        y: 0.13092345
+        z: 0.025979651
+        w: 0.99104613
+  - vertexIndex: 3
+    childCount: 1
+    childStartDataIndex: 4
+    localPos:
+      x: -0.04776226
+      y: 0.00000010306771
+      z: -0.000000048566893
+    localRot:
+      value:
+        x: 0.010404847
+        y: 0.18615425
+        z: 0.054828137
+        w: 0.98093444
+  - vertexIndex: 4
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.047762357
+      y: -0.00000005836469
+      z: 0.00000003370328
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 5
+    childCount: 1
+    childStartDataIndex: 6
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 6
+    childCount: 1
+    childStartDataIndex: 7
+    localPos:
+      x: -0.04776236
+      y: 0.000000023959092
+      z: 7.4525097e-10
+    localRot:
+      value:
+        x: 0.0000000029471403
+        y: -0.05781668
+        z: -0.0000000053714717
+        w: 0.9983273
+  - vertexIndex: 7
+    childCount: 1
+    childStartDataIndex: 8
+    localPos:
+      x: -0.047762312
+      y: -0.000000048218048
+      z: -0.000000034198372
+    localRot:
+      value:
+        x: 0.010529397
+        y: -0.1305449
+        z: 0.027821478
+        w: 0.99099606
+  - vertexIndex: 8
+    childCount: 1
+    childStartDataIndex: 9
+    localPos:
+      x: -0.04776225
+      y: 0.00000006301497
+      z: -0.000000019476587
+    localRot:
+      value:
+        x: 0.032603428
+        y: -0.18356928
+        z: 0.062935404
+        w: 0.9804481
+  - vertexIndex: 9
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.047762338
+      y: 0.00000008714346
+      z: 0.0000000493068
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 10
+    childCount: 1
+    childStartDataIndex: 11
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 11
+    childCount: 1
+    childStartDataIndex: 12
+    localPos:
+      x: -0.091644794
+      y: 0.000000013801163
+      z: -0.0000000048057585
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 12
+    childCount: 1
+    childStartDataIndex: 13
+    localPos:
+      x: -0.091644794
+      y: -0.0000000010033148
+      z: -0.0000000048057593
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 13
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.091644794
+      y: 0.000000013801163
+      z: -0.0000000048057585
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 5
+  - startIndex: 5
+    dataLength: 5
+  - startIndex: 10
+    dataLength: 4
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
+--- !u!114 &-3474360094472563288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Skirt
+  m_EditorClassIdentifier: 
+  dataHash: -1659945736
+  dataVersion: 2
+  selectionList:
+  - selectData: 0200000001000000010000000100000002000000010000000100000001000000020000000100000001000000010000000200000001000000010000000100000002000000010000000100000001000000020000000100000001000000010000000200000001000000010000000100000002000000010000000100000001000000
+    vertexHashList: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &-1213161988277580847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Back Long Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: 600315695
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 24
+  vertexInfoList: 000000100100001002000010030000100400001005000010060000100700001008000010090000100a0000100b0000100c0000100d0000100e0000100f0000101000001011000010120000101300001014000010150000101600001017000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 20
+  lineList: 00000000010000000100000002000000020000000300000003000000040000000400000005000000050000000600000007000000080000000800000009000000090000000a0000000a0000000b0000000c0000000d0000000d0000000e0000000e0000000f0000000f00000010000000100000001100000011000000120000001300000014000000140000001500000015000000160000001600000017000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &-763234450630637907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Accessory
+  m_EditorClassIdentifier: 
+  dataHash: -1322591277
+  dataVersion: 5
+  useVertexList: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
+  selectionData: 02000000010000000200000001000000020000000100000002000000010000000100000002000000010000000200000001000000010000000200000001000000
+  maxLevel: 3
+  vertexFlagLevelList: 01000000020001000100000002000100010000000200010001000000020000000300010001000000020001000100000002000000030001000100000002000100
+  vertexDepthList:
+  - 0
+  - 0.5
+  - 0
+  - 0.5
+  - 0
+  - 0.5
+  - 0
+  - 0.5
+  - 1
+  - 0
+  - 0.5
+  - 0
+  - 0.5
+  - 1
+  - 0
+  - 0.5
+  rootList: ffffffff00000000ffffffff02000000ffffffff04000000ffffffff0600000006000000ffffffff09000000ffffffff0b0000000b000000ffffffff0e000000
+  parentList: ffffffff00000000ffffffff02000000ffffffff04000000ffffffff0600000007000000ffffffff09000000ffffffff0b0000000c000000ffffffff0e000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.08865698
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.08865698
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.050000057
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.050000057
+  - vertexIndex: 4
+    targetVertexIndex: 5
+    length: 0.05000009
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.05000009
+  - vertexIndex: 6
+    targetVertexIndex: 7
+    length: 0.05507222
+  - vertexIndex: 7
+    targetVertexIndex: 6
+    length: 0.05507222
+  - vertexIndex: 7
+    targetVertexIndex: 8
+    length: 0.058379993
+  - vertexIndex: 8
+    targetVertexIndex: 7
+    length: 0.058379993
+  - vertexIndex: 9
+    targetVertexIndex: 10
+    length: 0.059999995
+  - vertexIndex: 10
+    targetVertexIndex: 9
+    length: 0.059999995
+  - vertexIndex: 11
+    targetVertexIndex: 12
+    length: 0.05507222
+  - vertexIndex: 12
+    targetVertexIndex: 11
+    length: 0.05507222
+  - vertexIndex: 12
+    targetVertexIndex: 13
+    length: 0.05838
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.05838
+  - vertexIndex: 14
+    targetVertexIndex: 15
+    length: 0.059999995
+  - vertexIndex: 15
+    targetVertexIndex: 14
+    length: 0.059999995
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 2
+  - startIndex: 9
+    count: 1
+  - startIndex: 10
+    count: 1
+  - startIndex: 11
+    count: 1
+  - startIndex: 12
+    count: 1
+  - startIndex: 13
+    count: 2
+  - startIndex: 15
+    count: 1
+  - startIndex: 16
+    count: 1
+  - startIndex: 17
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.08865698
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.050000057
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.05000009
+  - vertexIndex: 7
+    targetVertexIndex: 6
+    length: 0.05507222
+  - vertexIndex: 8
+    targetVertexIndex: 6
+    length: 0.11298356
+  - vertexIndex: 10
+    targetVertexIndex: 9
+    length: 0.059999995
+  - vertexIndex: 12
+    targetVertexIndex: 11
+    length: 0.05507222
+  - vertexIndex: 13
+    targetVertexIndex: 11
+    length: 0.11298357
+  - vertexIndex: 15
+    targetVertexIndex: 14
+    length: 0.059999995
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 0
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 0
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 0
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 0
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 0
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 1
+  - startIndex: 8
+    count: 0
+  - startIndex: 8
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.088656984
+      y: -0.00000015604887
+      z: 0.00000002744376
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 3
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.050000053
+      y: 0.00000007089578
+      z: -0.00000004764286
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 4
+    childCount: 1
+    childStartDataIndex: 5
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 5
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.050000094
+      y: -0.000000048065584
+      z: 0.000000008599895
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 6
+    childCount: 1
+    childStartDataIndex: 7
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 7
+    childCount: 1
+    childStartDataIndex: 8
+    localPos:
+      x: -0.054879762
+      y: -0.00038827452
+      z: 0.004583658
+    localRot:
+      value:
+        x: -0.038081717
+        y: 0.12462991
+        z: 0.015393419
+        w: 0.99135274
+  - vertexIndex: 8
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.05834223
+      y: -0.002080568
+      z: 0.00028127583
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 9
+    childCount: 1
+    childStartDataIndex: 10
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 10
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.059999995
+      y: 0.000000037030482
+      z: -0.00000012302047
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 11
+    childCount: 1
+    childStartDataIndex: 12
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 12
+    childCount: 1
+    childStartDataIndex: 13
+    localPos:
+      x: -0.054879766
+      y: -0.0003882675
+      z: -0.0045836596
+    localRot:
+      value:
+        x: 0.03808172
+        y: -0.12462999
+        z: 0.015393328
+        w: 0.99135274
+  - vertexIndex: 13
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.058342237
+      y: -0.0020805644
+      z: -0.00028126864
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 14
+    childCount: 1
+    childStartDataIndex: 15
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 15
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.059999995
+      y: 0.00000003736261
+      z: 0.00000011774393
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 0.99999994
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 2
+  - startIndex: 2
+    dataLength: 2
+  - startIndex: 4
+    dataLength: 2
+  - startIndex: 6
+    dataLength: 3
+  - startIndex: 9
+    dataLength: 2
+  - startIndex: 11
+    dataLength: 3
+  - startIndex: 14
+    dataLength: 2
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
+--- !u!114 &-640036096678330285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Accessory
+  m_EditorClassIdentifier: 
+  dataHash: 1108854493
+  dataVersion: 2
+  selectionList:
+  - selectData: 02000000010000000200000001000000020000000100000002000000010000000100000002000000010000000200000001000000010000000200000001000000
+    vertexHashList: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &-639075054568396807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Other Hair
+  m_EditorClassIdentifier: 
+  dataHash: 600315608
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 6
+  vertexInfoList: 000000100100001002000010030000100400001005000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 3
+  lineList: 000000000100000002000000030000000400000005000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &300041941021431924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Hip Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: -1322591341
+  dataVersion: 5
+  useVertexList: 0000000001000000020000000300000004000000050000000600000007000000
+  selectionData: 0200000001000000010000000100000002000000010000000100000001000000
+  maxLevel: 4
+  vertexFlagLevelList: 0100000002000000030000000400010001000000020000000300000004000100
+  vertexDepthList:
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  rootList: ffffffff000000000000000000000000ffffffff040000000400000004000000
+  parentList: ffffffff000000000100000002000000ffffffff040000000500000006000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.10103849
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.10103849
+  - vertexIndex: 1
+    targetVertexIndex: 2
+    length: 0.101043135
+  - vertexIndex: 2
+    targetVertexIndex: 1
+    length: 0.101043135
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.10101515
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.10101515
+  - vertexIndex: 4
+    targetVertexIndex: 5
+    length: 0.10103848
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.10103848
+  - vertexIndex: 5
+    targetVertexIndex: 6
+    length: 0.10104315
+  - vertexIndex: 6
+    targetVertexIndex: 5
+    length: 0.10104315
+  - vertexIndex: 6
+    targetVertexIndex: 7
+    length: 0.10101518
+  - vertexIndex: 7
+    targetVertexIndex: 6
+    length: 0.10101518
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 2
+  - startIndex: 3
+    count: 2
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 2
+  - startIndex: 9
+    count: 2
+  - startIndex: 11
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.10103849
+  - vertexIndex: 2
+    targetVertexIndex: 0
+    length: 0.2020774
+  - vertexIndex: 3
+    targetVertexIndex: 0
+    length: 0.30307105
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.10103848
+  - vertexIndex: 6
+    targetVertexIndex: 4
+    length: 0.2020774
+  - vertexIndex: 7
+    targetVertexIndex: 4
+    length: 0.30307108
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 0
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 1
+    childStartDataIndex: 2
+    localPos:
+      x: -0.10102362
+      y: -0.0013540164
+      z: 0.0010819805
+    localRot:
+      value:
+        x: -0.006612298
+        y: 0.010966842
+        z: 0.018173004
+        w: 0.9997529
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: -0.101032674
+      y: 0.0014462336
+      z: -0.00015517588
+    localRot:
+      value:
+        x: -0.015708335
+        y: -0.0012818585
+        z: -0.010469215
+        w: 0.99982107
+  - vertexIndex: 3
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.10097829
+      y: -0.002726298
+      z: 0.00011793401
+    localRot:
+      value:
+        x: 0.018940665
+        y: 0.0016462249
+        z: 0.03206675
+        w: 0.999305
+  - vertexIndex: 4
+    childCount: 1
+    childStartDataIndex: 5
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 5
+    childCount: 1
+    childStartDataIndex: 6
+    localPos:
+      x: -0.101023614
+      y: -0.0013540186
+      z: -0.0010819831
+    localRot:
+      value:
+        x: 0.006612277
+        y: -0.010966837
+        z: 0.018173007
+        w: 0.9997529
+  - vertexIndex: 6
+    childCount: 1
+    childStartDataIndex: 7
+    localPos:
+      x: -0.10103269
+      y: 0.0014462448
+      z: 0.00015519255
+    localRot:
+      value:
+        x: 0.015708333
+        y: 0.0012818098
+        z: -0.010469218
+        w: 0.999821
+  - vertexIndex: 7
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.100978315
+      y: -0.0027262843
+      z: -0.00011790309
+    localRot:
+      value:
+        x: -0.018940646
+        y: -0.0016462296
+        z: 0.03206673
+        w: 0.9993049
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 4
+  - startIndex: 4
+    dataLength: 4
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
+--- !u!114 &719388028279840778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Skirt
+  m_EditorClassIdentifier: 
+  dataHash: -1322591119
+  dataVersion: 5
+  useVertexList: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000
+  selectionData: 0200000001000000010000000100000002000000010000000100000001000000020000000100000001000000010000000200000001000000010000000100000002000000010000000100000001000000020000000100000001000000010000000200000001000000010000000100000002000000010000000100000001000000
+  maxLevel: 4
+  vertexFlagLevelList: 0100000002000000030000000400010001000000020000000300000004000100010000000200000003000000040001000100000002000000030000000400010001000000020000000300000004000100010000000200000003000000040001000100000002000000030000000400010001000000020000000300000004000100
+  vertexDepthList:
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  - 0
+  - 0.33333334
+  - 0.6666667
+  - 1
+  rootList: ffffffff000000000000000000000000ffffffff040000000400000004000000ffffffff080000000800000008000000ffffffff0c0000000c0000000c000000ffffffff100000001000000010000000ffffffff140000001400000014000000ffffffff180000001800000018000000ffffffff1c0000001c0000001c000000
+  parentList: ffffffff000000000100000002000000ffffffff040000000500000006000000ffffffff08000000090000000a000000ffffffff0c0000000d0000000e000000ffffffff100000001100000012000000ffffffff140000001500000016000000ffffffff18000000190000001a000000ffffffff1c0000001d0000001e000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.07198428
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.07198428
+  - vertexIndex: 1
+    targetVertexIndex: 2
+    length: 0.071984164
+  - vertexIndex: 2
+    targetVertexIndex: 1
+    length: 0.071984164
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.071984164
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.071984164
+  - vertexIndex: 4
+    targetVertexIndex: 5
+    length: 0.07601103
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.07601103
+  - vertexIndex: 5
+    targetVertexIndex: 6
+    length: 0.07601113
+  - vertexIndex: 6
+    targetVertexIndex: 5
+    length: 0.07601113
+  - vertexIndex: 6
+    targetVertexIndex: 7
+    length: 0.07601095
+  - vertexIndex: 7
+    targetVertexIndex: 6
+    length: 0.07601095
+  - vertexIndex: 8
+    targetVertexIndex: 9
+    length: 0.07499997
+  - vertexIndex: 9
+    targetVertexIndex: 8
+    length: 0.07499997
+  - vertexIndex: 9
+    targetVertexIndex: 10
+    length: 0.07500011
+  - vertexIndex: 10
+    targetVertexIndex: 9
+    length: 0.07500011
+  - vertexIndex: 10
+    targetVertexIndex: 11
+    length: 0.07499992
+  - vertexIndex: 11
+    targetVertexIndex: 10
+    length: 0.07499992
+  - vertexIndex: 12
+    targetVertexIndex: 13
+    length: 0.07198428
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.07198428
+  - vertexIndex: 13
+    targetVertexIndex: 14
+    length: 0.071984164
+  - vertexIndex: 14
+    targetVertexIndex: 13
+    length: 0.071984164
+  - vertexIndex: 14
+    targetVertexIndex: 15
+    length: 0.07198432
+  - vertexIndex: 15
+    targetVertexIndex: 14
+    length: 0.07198432
+  - vertexIndex: 16
+    targetVertexIndex: 17
+    length: 0.07601422
+  - vertexIndex: 17
+    targetVertexIndex: 16
+    length: 0.07601422
+  - vertexIndex: 17
+    targetVertexIndex: 18
+    length: 0.07601419
+  - vertexIndex: 18
+    targetVertexIndex: 17
+    length: 0.07601419
+  - vertexIndex: 18
+    targetVertexIndex: 19
+    length: 0.07601418
+  - vertexIndex: 19
+    targetVertexIndex: 18
+    length: 0.07601418
+  - vertexIndex: 20
+    targetVertexIndex: 21
+    length: 0.07499997
+  - vertexIndex: 21
+    targetVertexIndex: 20
+    length: 0.07499997
+  - vertexIndex: 21
+    targetVertexIndex: 22
+    length: 0.07500005
+  - vertexIndex: 22
+    targetVertexIndex: 21
+    length: 0.07500005
+  - vertexIndex: 22
+    targetVertexIndex: 23
+    length: 0.07499997
+  - vertexIndex: 23
+    targetVertexIndex: 22
+    length: 0.07499997
+  - vertexIndex: 24
+    targetVertexIndex: 25
+    length: 0.07848648
+  - vertexIndex: 25
+    targetVertexIndex: 24
+    length: 0.07848648
+  - vertexIndex: 25
+    targetVertexIndex: 26
+    length: 0.07848643
+  - vertexIndex: 26
+    targetVertexIndex: 25
+    length: 0.07848643
+  - vertexIndex: 26
+    targetVertexIndex: 27
+    length: 0.07848647
+  - vertexIndex: 27
+    targetVertexIndex: 26
+    length: 0.07848647
+  - vertexIndex: 28
+    targetVertexIndex: 29
+    length: 0.07499997
+  - vertexIndex: 29
+    targetVertexIndex: 28
+    length: 0.07499997
+  - vertexIndex: 29
+    targetVertexIndex: 30
+    length: 0.075000025
+  - vertexIndex: 30
+    targetVertexIndex: 29
+    length: 0.075000025
+  - vertexIndex: 30
+    targetVertexIndex: 31
+    length: 0.07499997
+  - vertexIndex: 31
+    targetVertexIndex: 30
+    length: 0.07499997
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 2
+  - startIndex: 3
+    count: 2
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 2
+  - startIndex: 9
+    count: 2
+  - startIndex: 11
+    count: 1
+  - startIndex: 12
+    count: 1
+  - startIndex: 13
+    count: 2
+  - startIndex: 15
+    count: 2
+  - startIndex: 17
+    count: 1
+  - startIndex: 18
+    count: 1
+  - startIndex: 19
+    count: 2
+  - startIndex: 21
+    count: 2
+  - startIndex: 23
+    count: 1
+  - startIndex: 24
+    count: 1
+  - startIndex: 25
+    count: 2
+  - startIndex: 27
+    count: 2
+  - startIndex: 29
+    count: 1
+  - startIndex: 30
+    count: 1
+  - startIndex: 31
+    count: 2
+  - startIndex: 33
+    count: 2
+  - startIndex: 35
+    count: 1
+  - startIndex: 36
+    count: 1
+  - startIndex: 37
+    count: 2
+  - startIndex: 39
+    count: 2
+  - startIndex: 41
+    count: 1
+  - startIndex: 42
+    count: 1
+  - startIndex: 43
+    count: 2
+  - startIndex: 45
+    count: 2
+  - startIndex: 47
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.07198428
+  - vertexIndex: 2
+    targetVertexIndex: 0
+    length: 0.14396845
+  - vertexIndex: 3
+    targetVertexIndex: 0
+    length: 0.2159526
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.07601103
+  - vertexIndex: 6
+    targetVertexIndex: 4
+    length: 0.15202217
+  - vertexIndex: 7
+    targetVertexIndex: 4
+    length: 0.22803311
+  - vertexIndex: 9
+    targetVertexIndex: 8
+    length: 0.07499997
+  - vertexIndex: 10
+    targetVertexIndex: 8
+    length: 0.15000008
+  - vertexIndex: 11
+    targetVertexIndex: 8
+    length: 0.22500001
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.07198428
+  - vertexIndex: 14
+    targetVertexIndex: 12
+    length: 0.14396845
+  - vertexIndex: 15
+    targetVertexIndex: 12
+    length: 0.21595277
+  - vertexIndex: 17
+    targetVertexIndex: 16
+    length: 0.07601422
+  - vertexIndex: 18
+    targetVertexIndex: 16
+    length: 0.15202841
+  - vertexIndex: 19
+    targetVertexIndex: 16
+    length: 0.22804259
+  - vertexIndex: 21
+    targetVertexIndex: 20
+    length: 0.07499997
+  - vertexIndex: 22
+    targetVertexIndex: 20
+    length: 0.15000002
+  - vertexIndex: 23
+    targetVertexIndex: 20
+    length: 0.225
+  - vertexIndex: 25
+    targetVertexIndex: 24
+    length: 0.07848648
+  - vertexIndex: 26
+    targetVertexIndex: 24
+    length: 0.15697291
+  - vertexIndex: 27
+    targetVertexIndex: 24
+    length: 0.23545939
+  - vertexIndex: 29
+    targetVertexIndex: 28
+    length: 0.07499997
+  - vertexIndex: 30
+    targetVertexIndex: 28
+    length: 0.14999999
+  - vertexIndex: 31
+    targetVertexIndex: 28
+    length: 0.22499996
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 0
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 0
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 1
+  - startIndex: 8
+    count: 1
+  - startIndex: 9
+    count: 0
+  - startIndex: 9
+    count: 1
+  - startIndex: 10
+    count: 1
+  - startIndex: 11
+    count: 1
+  - startIndex: 12
+    count: 0
+  - startIndex: 12
+    count: 1
+  - startIndex: 13
+    count: 1
+  - startIndex: 14
+    count: 1
+  - startIndex: 15
+    count: 0
+  - startIndex: 15
+    count: 1
+  - startIndex: 16
+    count: 1
+  - startIndex: 17
+    count: 1
+  - startIndex: 18
+    count: 0
+  - startIndex: 18
+    count: 1
+  - startIndex: 19
+    count: 1
+  - startIndex: 20
+    count: 1
+  - startIndex: 21
+    count: 0
+  - startIndex: 21
+    count: 1
+  - startIndex: 22
+    count: 1
+  - startIndex: 23
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 1
+    childStartDataIndex: 2
+    localPos:
+      x: -0.07198428
+      y: 0.0000001510194
+      z: -0.000000009050934
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: -0.071984164
+      y: -0.000000066151884
+      z: 0.0000000050407563
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 3
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.071984164
+      y: -0.000000066151884
+      z: 0.0000000050407563
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 4
+    childCount: 1
+    childStartDataIndex: 5
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 5
+    childCount: 1
+    childStartDataIndex: 6
+    localPos:
+      x: -0.07601104
+      y: 0.00000007404689
+      z: 0.000000058612624
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 0.99999994
+  - vertexIndex: 6
+    childCount: 1
+    childStartDataIndex: 7
+    localPos:
+      x: -0.076011136
+      y: 0.000000004893252
+      z: 0.00000005879868
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 0.99999994
+  - vertexIndex: 7
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07601095
+      y: -0.000000046982873
+      z: -0.00000012813943
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 0.99999994
+  - vertexIndex: 8
+    childCount: 1
+    childStartDataIndex: 9
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 9
+    childCount: 1
+    childStartDataIndex: 10
+    localPos:
+      x: -0.07499997
+      y: -0.00000002150768
+      z: 0.000000062379364
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 10
+    childCount: 1
+    childStartDataIndex: 11
+    localPos:
+      x: -0.07500011
+      y: 0.00000006800917
+      z: -0.00000012656712
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 11
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07499992
+      y: 0.0000000049887836
+      z: 0.000000057397422
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 12
+    childCount: 1
+    childStartDataIndex: 13
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 13
+    childCount: 1
+    childStartDataIndex: 14
+    localPos:
+      x: -0.07198429
+      y: 0.00000014334032
+      z: 0.000000008285587
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 14
+    childCount: 1
+    childStartDataIndex: 15
+    localPos:
+      x: -0.07198417
+      y: -0.00000007383096
+      z: -0.0000000058060987
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 15
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.071984336
+      y: 0.0000001037539
+      z: 0.0000000057960765
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 16
+    childCount: 1
+    childStartDataIndex: 17
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 17
+    childCount: 1
+    childStartDataIndex: 18
+    localPos:
+      x: -0.076014236
+      y: 0.00000011782689
+      z: -0.00000012304243
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 18
+    childCount: 1
+    childStartDataIndex: 19
+    localPos:
+      x: -0.0760142
+      y: -0.00000003654441
+      z: 0.00000006475137
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 19
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07601419
+      y: -0.00000004642665
+      z: 0.000000055673382
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1.0000001
+  - vertexIndex: 20
+    childCount: 1
+    childStartDataIndex: 21
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 21
+    childCount: 1
+    childStartDataIndex: 22
+    localPos:
+      x: -0.07499997
+      y: -0.00000003191757
+      z: -0.000000055323085
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 22
+    childCount: 1
+    childStartDataIndex: 23
+    localPos:
+      x: -0.07500005
+      y: 0.00000007288901
+      z: 0.00000014718358
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 23
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07499997
+      y: -0.00000003191757
+      z: -0.000000055323085
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 24
+    childCount: 1
+    childStartDataIndex: 25
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 25
+    childCount: 1
+    childStartDataIndex: 26
+    localPos:
+      x: -0.07848648
+      y: -0.0000000062076086
+      z: -0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 26
+    childCount: 1
+    childStartDataIndex: 27
+    localPos:
+      x: -0.07848643
+      y: 0.000000021007295
+      z: -0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 27
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07848647
+      y: -0.000000022225862
+      z: -0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 28
+    childCount: 1
+    childStartDataIndex: 29
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 29
+    childCount: 1
+    childStartDataIndex: 30
+    localPos:
+      x: -0.07499997
+      y: 0.000000022520018
+      z: -9.063119e-10
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 30
+    childCount: 1
+    childStartDataIndex: 31
+    localPos:
+      x: -0.075000025
+      y: -0.000000001648294
+      z: -9.063119e-10
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 31
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.07499997
+      y: 0.000000022520018
+      z: -9.063119e-10
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 4
+  - startIndex: 4
+    dataLength: 4
+  - startIndex: 8
+    dataLength: 4
+  - startIndex: 12
+    dataLength: 4
+  - startIndex: 16
+    dataLength: 4
+  - startIndex: 20
+    dataLength: 4
+  - startIndex: 24
+    dataLength: 4
+  - startIndex: 28
+    dataLength: 4
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
+--- !u!114 &780548682386458248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Back Long Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: 720353984
+  dataVersion: 2
+  selectionList:
+  - selectData: 020000000100000001000000010000000100000001000000010000000200000001000000010000000100000001000000020000000100000001000000010000000100000001000000010000000200000001000000010000000100000001000000
+    vertexHashList: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &2225651716783535267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Skirt
+  m_EditorClassIdentifier: 
+  dataHash: 600315723
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 32
+  vertexInfoList: 000000100100001002000010030000100400001005000010060000100700001008000010090000100a0000100b0000100c0000100d0000100e0000100f000010100000101100001012000010130000101400001015000010160000101700001018000010190000101a0000101b0000101c0000101d0000101e0000101f000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 24
+  lineList: 0000000001000000010000000200000002000000030000000400000005000000050000000600000006000000070000000800000009000000090000000a0000000a0000000b0000000c0000000d0000000d0000000e0000000e0000000f0000001000000011000000110000001200000012000000130000001400000015000000150000001600000016000000170000001800000019000000190000001a0000001a0000001b0000001c0000001d0000001d0000001e0000001e0000001f000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &5159303116660033140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Accessory
+  m_EditorClassIdentifier: 
+  dataHash: 600315646
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 16
+  vertexInfoList: 000000100100001002000010030000100400001005000010060000100700001008000010090000100a0000100b0000100c0000100d0000100e0000100f000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 9
+  lineList: 00000000010000000200000003000000040000000500000006000000070000000700000008000000090000000a0000000b0000000c0000000c0000000d0000000e0000000f000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &5903127681636003546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Back Long Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: -1322591184
+  dataVersion: 5
+  useVertexList: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000001600000017000000
+  selectionData: 020000000100000001000000010000000100000001000000010000000200000001000000010000000100000001000000020000000100000001000000010000000100000001000000010000000200000001000000010000000100000001000000
+  maxLevel: 7
+  vertexFlagLevelList: 010000000200000003000000040000000500000006000000070001000100000002000000030000000400000005000100010000000200000003000000040000000500000006000000070001000100000002000000030000000400000005000100
+  vertexDepthList:
+  - 0
+  - 0.16666667
+  - 0.33333334
+  - 0.5
+  - 0.6666667
+  - 0.8333333
+  - 1
+  - 0
+  - 0.16666667
+  - 0.33333334
+  - 0.5
+  - 0.6666667
+  - 0
+  - 0.16666667
+  - 0.33333334
+  - 0.5
+  - 0.6666667
+  - 0.8333333
+  - 1
+  - 0
+  - 0.16666667
+  - 0.33333334
+  - 0.5
+  - 0.6666667
+  rootList: ffffffff000000000000000000000000000000000000000000000000ffffffff07000000070000000700000007000000ffffffff0c0000000c0000000c0000000c0000000c0000000c000000ffffffff13000000130000001300000013000000
+  parentList: ffffffff000000000100000002000000030000000400000005000000ffffffff0700000008000000090000000a000000ffffffff0c0000000d0000000e0000000f0000001000000011000000ffffffff13000000140000001500000016000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.15999997
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.15999997
+  - vertexIndex: 1
+    targetVertexIndex: 2
+    length: 0.16000004
+  - vertexIndex: 2
+    targetVertexIndex: 1
+    length: 0.16000004
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.15999997
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.15999997
+  - vertexIndex: 3
+    targetVertexIndex: 4
+    length: 0.15999989
+  - vertexIndex: 4
+    targetVertexIndex: 3
+    length: 0.15999989
+  - vertexIndex: 4
+    targetVertexIndex: 5
+    length: 0.16000009
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.16000009
+  - vertexIndex: 5
+    targetVertexIndex: 6
+    length: 0.06372376
+  - vertexIndex: 6
+    targetVertexIndex: 5
+    length: 0.06372376
+  - vertexIndex: 7
+    targetVertexIndex: 8
+    length: 0.09135325
+  - vertexIndex: 8
+    targetVertexIndex: 7
+    length: 0.09135325
+  - vertexIndex: 8
+    targetVertexIndex: 9
+    length: 0.09133171
+  - vertexIndex: 9
+    targetVertexIndex: 8
+    length: 0.09133171
+  - vertexIndex: 9
+    targetVertexIndex: 10
+    length: 0.091414005
+  - vertexIndex: 10
+    targetVertexIndex: 9
+    length: 0.091414005
+  - vertexIndex: 10
+    targetVertexIndex: 11
+    length: 0.09133852
+  - vertexIndex: 11
+    targetVertexIndex: 10
+    length: 0.09133852
+  - vertexIndex: 12
+    targetVertexIndex: 13
+    length: 0.15999997
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.15999997
+  - vertexIndex: 13
+    targetVertexIndex: 14
+    length: 0.16000006
+  - vertexIndex: 14
+    targetVertexIndex: 13
+    length: 0.16000006
+  - vertexIndex: 14
+    targetVertexIndex: 15
+    length: 0.15999998
+  - vertexIndex: 15
+    targetVertexIndex: 14
+    length: 0.15999998
+  - vertexIndex: 15
+    targetVertexIndex: 16
+    length: 0.15999998
+  - vertexIndex: 16
+    targetVertexIndex: 15
+    length: 0.15999998
+  - vertexIndex: 16
+    targetVertexIndex: 17
+    length: 0.16000004
+  - vertexIndex: 17
+    targetVertexIndex: 16
+    length: 0.16000004
+  - vertexIndex: 17
+    targetVertexIndex: 18
+    length: 0.06372364
+  - vertexIndex: 18
+    targetVertexIndex: 17
+    length: 0.06372364
+  - vertexIndex: 19
+    targetVertexIndex: 20
+    length: 0.09135609
+  - vertexIndex: 20
+    targetVertexIndex: 19
+    length: 0.09135609
+  - vertexIndex: 20
+    targetVertexIndex: 21
+    length: 0.09154433
+  - vertexIndex: 21
+    targetVertexIndex: 20
+    length: 0.09154433
+  - vertexIndex: 21
+    targetVertexIndex: 22
+    length: 0.090865634
+  - vertexIndex: 22
+    targetVertexIndex: 21
+    length: 0.090865634
+  - vertexIndex: 22
+    targetVertexIndex: 23
+    length: 0.118474044
+  - vertexIndex: 23
+    targetVertexIndex: 22
+    length: 0.118474044
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 2
+  - startIndex: 3
+    count: 2
+  - startIndex: 5
+    count: 2
+  - startIndex: 7
+    count: 2
+  - startIndex: 9
+    count: 2
+  - startIndex: 11
+    count: 1
+  - startIndex: 12
+    count: 1
+  - startIndex: 13
+    count: 2
+  - startIndex: 15
+    count: 2
+  - startIndex: 17
+    count: 2
+  - startIndex: 19
+    count: 1
+  - startIndex: 20
+    count: 1
+  - startIndex: 21
+    count: 2
+  - startIndex: 23
+    count: 2
+  - startIndex: 25
+    count: 2
+  - startIndex: 27
+    count: 2
+  - startIndex: 29
+    count: 2
+  - startIndex: 31
+    count: 1
+  - startIndex: 32
+    count: 1
+  - startIndex: 33
+    count: 2
+  - startIndex: 35
+    count: 2
+  - startIndex: 37
+    count: 2
+  - startIndex: 39
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.15999997
+  - vertexIndex: 2
+    targetVertexIndex: 0
+    length: 0.31890655
+  - vertexIndex: 3
+    targetVertexIndex: 0
+    length: 0.47563356
+  - vertexIndex: 4
+    targetVertexIndex: 0
+    length: 0.62904304
+  - vertexIndex: 5
+    targetVertexIndex: 0
+    length: 0.7766129
+  - vertexIndex: 6
+    targetVertexIndex: 0
+    length: 0.82876146
+  - vertexIndex: 8
+    targetVertexIndex: 7
+    length: 0.09135325
+  - vertexIndex: 9
+    targetVertexIndex: 7
+    length: 0.18262756
+  - vertexIndex: 10
+    targetVertexIndex: 7
+    length: 0.27353933
+  - vertexIndex: 11
+    targetVertexIndex: 7
+    length: 0.3643599
+  - vertexIndex: 13
+    targetVertexIndex: 12
+    length: 0.15999997
+  - vertexIndex: 14
+    targetVertexIndex: 12
+    length: 0.31890655
+  - vertexIndex: 15
+    targetVertexIndex: 12
+    length: 0.4756336
+  - vertexIndex: 16
+    targetVertexIndex: 12
+    length: 0.62904316
+  - vertexIndex: 17
+    targetVertexIndex: 12
+    length: 0.776613
+  - vertexIndex: 18
+    targetVertexIndex: 12
+    length: 0.8287615
+  - vertexIndex: 20
+    targetVertexIndex: 19
+    length: 0.09135609
+  - vertexIndex: 21
+    targetVertexIndex: 19
+    length: 0.18284297
+  - vertexIndex: 22
+    targetVertexIndex: 19
+    length: 0.27320638
+  - vertexIndex: 23
+    targetVertexIndex: 19
+    length: 0.39108557
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  - startIndex: 6
+    count: 0
+  - startIndex: 6
+    count: 1
+  - startIndex: 7
+    count: 1
+  - startIndex: 8
+    count: 1
+  - startIndex: 9
+    count: 1
+  - startIndex: 10
+    count: 0
+  - startIndex: 10
+    count: 1
+  - startIndex: 11
+    count: 1
+  - startIndex: 12
+    count: 1
+  - startIndex: 13
+    count: 1
+  - startIndex: 14
+    count: 1
+  - startIndex: 15
+    count: 1
+  - startIndex: 16
+    count: 0
+  - startIndex: 16
+    count: 1
+  - startIndex: 17
+    count: 1
+  - startIndex: 18
+    count: 1
+  - startIndex: 19
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 1
+    childStartDataIndex: 2
+    localPos:
+      x: -0.15999995
+      y: -0.000000022118025
+      z: -0.00000009045736
+    localRot:
+      value:
+        x: 0.000000010755583
+        y: 0.00000005638185
+        z: 0.0825986
+        w: 0.9965829
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: -0.16000006
+      y: 0.00000006586012
+      z: 0.000000105347034
+    localRot:
+      value:
+        x: -0.0000000016338957
+        y: -0.000000016552498
+        z: 0.08259869
+        w: 0.9965829
+  - vertexIndex: 3
+    childCount: 1
+    childStartDataIndex: 4
+    localPos:
+      x: -0.15999997
+      y: -0.000000018763995
+      z: -0.000000071570675
+    localRot:
+      value:
+        x: -0.000000055105446
+        y: -0.000000017089564
+        z: 0.08344438
+        w: 0.9965125
+  - vertexIndex: 4
+    childCount: 1
+    childStartDataIndex: 5
+    localPos:
+      x: -0.15999989
+      y: -0.00000008047658
+      z: -0.00000009186621
+    localRot:
+      value:
+        x: -0.0025192366
+        y: 0.019737562
+        z: 0.09600804
+        w: 0.9951817
+  - vertexIndex: 5
+    childCount: 1
+    childStartDataIndex: 6
+    localPos:
+      x: -0.16000007
+      y: 0.000000024614712
+      z: -0.000000023981967
+    localRot:
+      value:
+        x: 0.0019122196
+        y: -0.019750727
+        z: 0.14048825
+        w: 0.9898835
+  - vertexIndex: 6
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.06372376
+      y: 0.00000004943768
+      z: 0.0000000412376
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 7
+    childCount: 1
+    childStartDataIndex: 8
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 8
+    childCount: 1
+    childStartDataIndex: 9
+    localPos:
+      x: -0.091330096
+      y: -0.0020530606
+      z: -0.0001227358
+    localRot:
+      value:
+        x: 0.000000013308673
+        y: 0.00000002130518
+        z: 0.033281766
+        w: 0.99944603
+  - vertexIndex: 9
+    childCount: 1
+    childStartDataIndex: 10
+    localPos:
+      x: -0.091330044
+      y: -0.00055102946
+      z: -0.000044115364
+    localRot:
+      value:
+        x: -0.0000000134262415
+        y: -0.000000037016754
+        z: 0.033281785
+        w: 0.99944603
+  - vertexIndex: 10
+    childCount: 1
+    childStartDataIndex: 11
+    localPos:
+      x: -0.09132998
+      y: -0.0039123967
+      z: -0.00022040031
+    localRot:
+      value:
+        x: 0.000000024541349
+        y: 0.00000001514894
+        z: 0.033281792
+        w: 0.99944603
+  - vertexIndex: 11
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.09132997
+      y: -0.0012475287
+      z: -0.000080762366
+    localRot:
+      value:
+        x: -0.000000010200721
+        y: 0.000000017426913
+        z: 0.033281747
+        w: 0.9994461
+  - vertexIndex: 12
+    childCount: 1
+    childStartDataIndex: 13
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 13
+    childCount: 1
+    childStartDataIndex: 14
+    localPos:
+      x: -0.16000001
+      y: -0.000000015898527
+      z: 0.000000043555254
+    localRot:
+      value:
+        x: -0.000000009192787
+        y: -0.000000026487221
+        z: 0.08259864
+        w: 0.996583
+  - vertexIndex: 14
+    childCount: 1
+    childStartDataIndex: 15
+    localPos:
+      x: -0.16000007
+      y: 0.000000042671587
+      z: -0.00000017699405
+    localRot:
+      value:
+        x: -0.0000000075285715
+        y: 0.00000003373991
+        z: -0.08259864
+        w: -0.9965829
+  - vertexIndex: 15
+    childCount: 1
+    childStartDataIndex: 16
+    localPos:
+      x: -0.16
+      y: 0.0000000072537727
+      z: 0.000000036157978
+    localRot:
+      value:
+        x: 0.000000004267644
+        y: -0.000000004359605
+        z: 0.08344435
+        w: 0.9965125
+  - vertexIndex: 16
+    childCount: 1
+    childStartDataIndex: 17
+    localPos:
+      x: -0.15999998
+      y: -0.000000087714625
+      z: 0.000000064761736
+    localRot:
+      value:
+        x: 0.0025191074
+        y: -0.01973599
+        z: 0.09600816
+        w: 0.99518174
+  - vertexIndex: 17
+    childCount: 1
+    childStartDataIndex: 18
+    localPos:
+      x: -0.16000006
+      y: 0.00000009517195
+      z: -0.000000040705164
+    localRot:
+      value:
+        x: -0.0019125612
+        y: 0.019754602
+        z: 0.14048816
+        w: 0.9898835
+  - vertexIndex: 18
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.063723646
+      y: 0.000000028102445
+      z: -0.000000068814586
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 19
+    childCount: 1
+    childStartDataIndex: 20
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 20
+    childCount: 1
+    childStartDataIndex: 21
+    localPos:
+      x: -0.09133295
+      y: -0.0020530634
+      z: -0.00012294884
+    localRot:
+      value:
+        x: -0.000000012165994
+        y: 0.0000000020007302
+        z: 0.03328174
+        w: 0.99944603
+  - vertexIndex: 21
+    childCount: 1
+    childStartDataIndex: 22
+    localPos:
+      x: -0.091542654
+      y: -0.0005510855
+      z: -0.00004409019
+    localRot:
+      value:
+        x: -0.000000026960873
+        y: -0.000000040117282
+        z: 0.033281785
+        w: 0.99944603
+  - vertexIndex: 22
+    childCount: 1
+    childStartDataIndex: 23
+    localPos:
+      x: -0.09078112
+      y: -0.0039123315
+      z: -0.00022035907
+    localRot:
+      value:
+        x: 0.0000000092214565
+        y: -0.000000006887761
+        z: 0.03328174
+        w: 0.99944603
+  - vertexIndex: 23
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.11846744
+      y: -0.0012475016
+      z: -0.00008069073
+    localRot:
+      value:
+        x: 0.000000012543188
+        y: 0.00000003943029
+        z: 0.033281855
+        w: 0.999446
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 7
+  - startIndex: 7
+    dataLength: 5
+  - startIndex: 12
+    dataLength: 7
+  - startIndex: 19
+    dataLength: 5
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
+--- !u!114 &6302338749283176050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Long Hair
+  m_EditorClassIdentifier: 
+  dataHash: 600315648
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 14
+  vertexInfoList: 000000100100001002000010030000100400001005000010060000100700001008000010090000100a0000100b0000100c0000100d000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 11
+  lineList: 000000000100000001000000020000000200000003000000030000000400000005000000060000000600000007000000070000000800000008000000090000000a0000000b0000000b0000000c0000000c0000000d000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &6823028363725115646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5479bb56a42b7f94bbae5d75fe03f75d, type: 3}
+  m_Name: SelectionData_Magica Bone Cloth Other Hair
+  m_EditorClassIdentifier: 
+  dataHash: 1356708189
+  dataVersion: 2
+  selectionList:
+  - selectData: 020000000100000002000000010000000200000001000000
+    vertexHashList: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &7007864357334419453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed8fdca875474bbc1b8d6dcfb79bc, type: 3}
+  m_Name: BoneClothMeshData_Magica Bone Cloth Hip Ribbon
+  m_EditorClassIdentifier: 
+  dataHash: 600315621
+  dataVersion: 2
+  isSkinning: 0
+  vertexCount: 8
+  vertexInfoList: 0000001001000010020000100300001004000010050000100600001007000010
+  vertexWeightList: []
+  vertexHashList: 
+  uvList: []
+  lineCount: 6
+  lineList: 000000000100000001000000020000000200000003000000040000000500000005000000060000000600000007000000
+  triangleCount: 0
+  triangleList: 
+  boneCount: 0
+  vertexToTriangleInfoList: 
+  vertexToTriangleIndexList: 
+  childDataList: []
+--- !u!114 &7554819712430192375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0548f9dc46468d94c96cbbd1e5c05f74, type: 3}
+  m_Name: BoneClothData_Magica Bone Cloth Other Hair
+  m_EditorClassIdentifier: 
+  dataHash: -1322591366
+  dataVersion: 5
+  useVertexList: 000000000100000002000000030000000400000005000000
+  selectionData: 020000000100000002000000010000000200000001000000
+  maxLevel: 2
+  vertexFlagLevelList: 010000000200010001000000020001000100000002000100
+  vertexDepthList:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1
+  rootList: ffffffff00000000ffffffff02000000ffffffff04000000
+  parentList: ffffffff00000000ffffffff02000000ffffffff04000000
+  directionalDampingUpDir: {x: 0, y: 1, z: 0}
+  structDistanceDataList:
+  - vertexIndex: 0
+    targetVertexIndex: 1
+    length: 0.04774604
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.04774604
+  - vertexIndex: 2
+    targetVertexIndex: 3
+    length: 0.029999869
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.029999869
+  - vertexIndex: 4
+    targetVertexIndex: 5
+    length: 0.03000051
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.03000051
+  structDistanceReferenceList:
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 1
+  - startIndex: 3
+    count: 1
+  - startIndex: 4
+    count: 1
+  - startIndex: 5
+    count: 1
+  bendDistanceDataList: []
+  bendDistanceReferenceList: []
+  nearDistanceDataList: []
+  nearDistanceReferenceList: []
+  rootDistanceDataList:
+  - vertexIndex: 1
+    targetVertexIndex: 0
+    length: 0.04774604
+  - vertexIndex: 3
+    targetVertexIndex: 2
+    length: 0.029999869
+  - vertexIndex: 5
+    targetVertexIndex: 4
+    length: 0.03000051
+  rootDistanceReferenceList:
+  - startIndex: 0
+    count: 0
+  - startIndex: 0
+    count: 1
+  - startIndex: 1
+    count: 0
+  - startIndex: 1
+    count: 1
+  - startIndex: 2
+    count: 0
+  - startIndex: 2
+    count: 1
+  restoreRotationDataList: []
+  restoreRotationReferenceList: []
+  clampRotationDataList: []
+  clampRotationRootInfoList: []
+  adjustRotationDataList: []
+  triangleBendDataList: []
+  triangleBendReferenceList: []
+  triangleBendWriteBufferCount: 0
+  volumeDataList: []
+  volumeReferenceList: []
+  volumeWriteBufferCount: 0
+  lineRotationDataList:
+  - vertexIndex: 0
+    childCount: 1
+    childStartDataIndex: 1
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 1
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.047736995
+      y: -0.00092955696
+      z: 0.0000000068004398
+    localRot:
+      value:
+        x: -0.00000008535421
+        y: 0.00000009477387
+        z: 0.0261769
+        w: 0.9996574
+  - vertexIndex: 2
+    childCount: 1
+    childStartDataIndex: 3
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 3
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.029999865
+      y: -0.000000017496019
+      z: -0.000000013594704
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 0.99999994
+  - vertexIndex: 4
+    childCount: 1
+    childStartDataIndex: 5
+    localPos:
+      x: 0
+      y: 0
+      z: 0
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  - vertexIndex: 5
+    childCount: 0
+    childStartDataIndex: 0
+    localPos:
+      x: -0.030000512
+      y: 0.00000007662369
+      z: 0.00000016198312
+    localRot:
+      value:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  lineRotationRootInfoList:
+  - startIndex: 0
+    dataLength: 2
+  - startIndex: 2
+    dataLength: 2
+  - startIndex: 4
+    dataLength: 2
+  edgeCollisionDataList: []
+  edgeCollisionReferenceList: []
+  edgeCollisionWriteBufferCount: 0
+  penetrationDataList: []
+  penetrationReferenceList: []
+  penetrationMode: 0
