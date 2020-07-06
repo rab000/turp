@@ -1,4 +1,6 @@
 
+urp的一些详细信息ppt
+https://www.slideshare.net/AkilarLiao/customize-renderpipeline?fbclid=IwAR3lGryY9u8g6OH4c40pBO9G-ikXTP6PFEcvs4vI2JYIjTd1ZXVtCHfrsG4
 
 [Universal RP]Unity通用渲染管线的Lit.shader（Lit可以当模板使用）
 https://zhuanlan.zhihu.com/p/87602137
